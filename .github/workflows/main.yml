@@ -18,7 +18,7 @@ jobs:
           pip install kikit
           pip install mistune==2.0.5 
           pip install PcbDraw
-          sudo apt install make cmark xsltproc
+          sudo apt install make cmark xsltproc librsvg2-bin
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: build present page
