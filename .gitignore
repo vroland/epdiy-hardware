@@ -4,5 +4,5 @@
 *.sch-bak
 fp-info-cache
 .cache
-epaper-breakout-backups/
+*-backups/
 
