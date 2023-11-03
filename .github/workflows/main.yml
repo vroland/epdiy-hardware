@@ -3,7 +3,7 @@ on:
   push:
     branches: [ ci-test ]
 jobs:
-  container-test-job:
+  build-artifacts:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,3 +24,30 @@ jobs:
       - name: build present page
         run: make web
       - run: tree build/
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: build/web/
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build-artifacts
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2 
+
