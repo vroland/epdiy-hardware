@@ -17,6 +17,8 @@ jobs:
         run: |
           pip install kikit
           sudo apt install make cmark xsltproc
+      - name: Checkout repo
+        uses: actions/checkout@v4
       - name: build present page
         run: make web
       - run: tree build/
