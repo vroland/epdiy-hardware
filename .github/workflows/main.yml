@@ -11,6 +11,14 @@ jobs:
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
           sudo apt update
-          sudo apt install --install-recommends kicad
+          sudo apt install kicad
       - run: kicad-cli version
-      - run: pip install kikit
+      - name: install kikit
+      - run: |
+          pip install kikit
+          sudo apt install make cmark xsltproc
+      - name: build present page
+        run: 
+          make web
+
+      - run: tree build/
