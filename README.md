@@ -15,8 +15,9 @@ git clone git@github.com:vroland/epdiy.git --recursive
 
 ## Available Hardware
 
-The full list of available hardware is available at[vroland.github.io/epdiy-hardware/](https://vroland.github.io/epdiy-hardware/).
+The full list of available hardware is available at [vroland.github.io/epdiy-hardware/](https://vroland.github.io/epdiy-hardware/).
 For each board, we provide:
+
 - Gerber files
 - Bill of Materials (BoM)
 - Pick & Place Positioning file
