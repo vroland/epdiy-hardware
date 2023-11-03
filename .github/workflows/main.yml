@@ -14,7 +14,7 @@ jobs:
           sudo apt install kicad
       - run: kicad-cli version
       - name: install kikit
-      - run: |
+        run: |
           pip install kikit
           sudo apt install make cmark xsltproc
       - name: build present page
