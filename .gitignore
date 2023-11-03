@@ -5,4 +5,4 @@
 fp-info-cache
 .cache
 *-backups/
-
+build/
