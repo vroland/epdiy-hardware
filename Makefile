@@ -1,8 +1,5 @@
 .PHONY: web
 
-# inspired by https://github.com/RoboticsBrno/RB0002-BatteryPack/blob/master/Makefile
-
-
 BOARDS = epdiy-v7 extension-cable
 
 web: build/web/index.html
