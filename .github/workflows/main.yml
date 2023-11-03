@@ -16,7 +16,7 @@ jobs:
       - name: install kikit
         run: |
           pip install kikit
-          pip install mistune
+          pip install mistune==2.0.5 
           pip install PcbDraw
           sudo apt install make cmark xsltproc
       - name: Checkout repo
