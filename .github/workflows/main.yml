@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: apt install kicad
+      - run: sudo apt install kicad
       - run: kicad-cli version
       - run: pip install kikit
