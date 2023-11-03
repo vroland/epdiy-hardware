@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/vroland/dev/misc/epdiy/hardware/epdiy-v7/epaper-breakout.kicad_sch</source>
-    <date>So 05 Feb 2023 23:23:25 CET</date>
-    <tool>Eeschema (6.0.11)</tool>
+    <source>/home/vroland/dev/misc/epdiy-hardware/epdiy-v7/epaper-breakout.kicad_sch</source>
+    <date>Thu 02 Nov 2023 01:16:40 CET</date>
+    <tool>Eeschema 7.0.8</tool>
+    <textvar name="git_hash">Git hash: &lt;1bdea82&gt;</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>epdiy</title>
         <company/>
         <rev>v7.0~dev</rev>
-        <date>2022-12-03</date>
+        <date>2023-06-12</date>
         <source>epaper-breakout.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -34,6 +35,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063472a4d</tstamps>
     </comp>
@@ -47,6 +50,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005d72494a</tstamps>
     </comp>
@@ -60,6 +65,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005d72605f</tstamps>
     </comp>
@@ -73,6 +80,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000663992d5</tstamps>
     </comp>
@@ -86,6 +95,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062b3469d</tstamps>
     </comp>
@@ -99,6 +110,8 @@
       <property name="LCSC" value="C45783"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006cfc2b17</tstamps>
     </comp>
@@ -112,6 +125,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063974a5c</tstamps>
     </comp>
@@ -125,6 +140,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063d9d08d</tstamps>
     </comp>
@@ -138,6 +155,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062ac6f0c</tstamps>
     </comp>
@@ -151,6 +170,8 @@
       <property name="LCSC" value="C45783"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006caa252b</tstamps>
     </comp>
@@ -164,6 +185,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000066616a46</tstamps>
     </comp>
@@ -177,6 +200,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062c7ecb2</tstamps>
     </comp>
@@ -190,6 +215,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9fe17b77-d421-458e-b0b1-780cc3927518</tstamps>
     </comp>
@@ -203,6 +230,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1a0217c6-ecb6-451a-888b-169380d77019</tstamps>
     </comp>
@@ -216,6 +245,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f4c55ff</tstamps>
     </comp>
@@ -229,6 +260,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>847a6390-9686-4145-9fff-da31437d35fc</tstamps>
     </comp>
@@ -236,12 +269,14 @@
       <value>100uF</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H</footprint>
       <fields>
-        <field name="LCSC"> C16133</field>
+        <field name="LCSC">C16133</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value=" C16133"/>
+      <property name="LCSC" value="C16133"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f441cfd</tstamps>
     </comp>
@@ -255,6 +290,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f441d03</tstamps>
     </comp>
@@ -268,6 +305,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006783cbac</tstamps>
     </comp>
@@ -281,6 +320,8 @@
       <property name="LCSC" value="C1710"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000643b89d3</tstamps>
     </comp>
@@ -294,6 +335,8 @@
       <property name="LCSC" value="C1792"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fcd73f8b-3b26-46bd-bd1a-458f2cae7e91</tstamps>
     </comp>
@@ -307,6 +350,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006350dd24</tstamps>
     </comp>
@@ -320,6 +365,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ff94231</tstamps>
     </comp>
@@ -333,6 +380,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062ffa887</tstamps>
     </comp>
@@ -346,6 +395,8 @@
       <property name="LCSC" value="C1710"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006144a4f6</tstamps>
     </comp>
@@ -359,6 +410,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061d9562e</tstamps>
     </comp>
@@ -372,6 +425,8 @@
       <property name="LCSC" value="C49217"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000065ca5308</tstamps>
     </comp>
@@ -385,6 +440,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006187ae25</tstamps>
     </comp>
@@ -398,6 +455,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000612d2c61</tstamps>
     </comp>
@@ -411,6 +470,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006470fa39</tstamps>
     </comp>
@@ -424,6 +485,8 @@
       <property name="LCSC" value="C1779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062485839</tstamps>
     </comp>
@@ -437,6 +500,8 @@
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060b28f99</tstamps>
     </comp>
@@ -450,6 +515,8 @@
       <property name="LCSC" value="C49217"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000618db7da</tstamps>
     </comp>
@@ -463,6 +530,8 @@
       <property name="LCSC" value="C1848"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e3a4f53</tstamps>
     </comp>
@@ -476,6 +545,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e3f7a13</tstamps>
     </comp>
@@ -489,6 +560,8 @@
       <property name="LCSC" value="C1848"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e49b350</tstamps>
     </comp>
@@ -502,6 +575,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e449942</tstamps>
     </comp>
@@ -515,6 +590,8 @@
       <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e780f6f</tstamps>
     </comp>
@@ -528,6 +605,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a717af08-746f-455c-a754-74fe55db2f8e</tstamps>
     </comp>
@@ -541,6 +620,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061b66f07</tstamps>
     </comp>
@@ -554,6 +635,8 @@
       <property name="LCSC" value="C1792"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ab1d26a0-6f6a-4985-bf92-d06db6ac6bd9</tstamps>
     </comp>
@@ -567,6 +650,8 @@
       <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ea789146-dd93-4a39-b390-b327ffcc01d5</tstamps>
     </comp>
@@ -581,6 +666,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062f8b189</tstamps>
     </comp>
@@ -595,6 +682,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063ad8e49</tstamps>
     </comp>
@@ -609,6 +698,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063b4db5c</tstamps>
     </comp>
@@ -623,6 +714,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000608b1299</tstamps>
     </comp>
@@ -637,6 +730,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060f82354</tstamps>
     </comp>
@@ -651,6 +746,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006127486e</tstamps>
     </comp>
@@ -665,6 +762,8 @@
       <property name="LCSC" value="C21353"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8e0bb650-9ec9-4da9-929f-002bf2adbf18</tstamps>
     </comp>
@@ -678,6 +777,8 @@
       <property name="LCSC" value="C2297"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062d0224c</tstamps>
     </comp>
@@ -685,12 +786,14 @@
       <value>LED RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC"> C84256</field>
+        <field name="LCSC">C84256</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="LCSC" value=" C84256"/>
+      <property name="LCSC" value="C84256"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062cc099d</tstamps>
     </comp>
@@ -699,12 +802,14 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
       <fields>
-        <field name="LCSC"> C8598</field>
+        <field name="LCSC">C8598</field>
       </fields>
       <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
-      <property name="LCSC" value=" C8598"/>
+      <property name="LCSC" value="C8598"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000065efcf6e</tstamps>
     </comp>
@@ -714,6 +819,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ed40f79</tstamps>
     </comp>
@@ -723,6 +830,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ed4192f</tstamps>
     </comp>
@@ -732,6 +841,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ed421f3</tstamps>
     </comp>
@@ -741,6 +852,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f7700e89-c3d0-4e2d-8b4e-b25758089bcf</tstamps>
     </comp>
@@ -755,24 +868,30 @@
       <property name="LCSC" value="C165948"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6b4b9b75-5af4-4fa0-bf4b-57554c204524</tstamps>
     </comp>
     <comp ref="J2">
       <value>EXTENSION_HEADER</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x13_Female" description="Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x13_Socket" description="Generic connector, single row, 01x13, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x13, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dd2ccf87-f27e-49b7-9550-ef47088cbdf5</tstamps>
     </comp>
     <comp ref="J3">
       <value>USB_HDR</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d88e71f5-1a08-4840-93fa-64a9c6d119a8</tstamps>
     </comp>
@@ -786,33 +905,41 @@
       <property name="LCSC" value="C231420"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="ED097OC4 9.7&quot; epaper display"/>
+      <property name="ki_keywords" value="epaper eink"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46666c89-e4b6-40e8-81b7-cac600fa948f</tstamps>
     </comp>
     <comp ref="J5">
       <value>CONN_BAT</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061d1a55b</tstamps>
     </comp>
     <comp ref="J6">
       <value>8BIT_HEADER</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8682d78b-471e-4d1f-8beb-0ed8a66386d4</tstamps>
     </comp>
     <comp ref="J7">
       <value>ESP_HDR</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x12_Female" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x12_Socket" description="Generic connector, single row, 01x12, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x12, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>552c621f-124b-44f2-ba23-19b8f7615df6</tstamps>
     </comp>
@@ -822,6 +949,8 @@
       <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4990364f-565c-424d-aefa-025bdb82251b</tstamps>
     </comp>
@@ -831,6 +960,8 @@
       <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f5d26c1-da43-48f5-89fa-20b58ba5100c</tstamps>
     </comp>
@@ -838,12 +969,14 @@
       <value>4.7uH</value>
       <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering</footprint>
       <fields>
-        <field name="LCSC"> C222947</field>
+        <field name="LCSC">C222947</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value=" C222947"/>
+      <property name="LCSC" value="C222947"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062d5dd06</tstamps>
     </comp>
@@ -857,6 +990,8 @@
       <property name="LCSC" value="C92959"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060856400</tstamps>
     </comp>
@@ -871,27 +1006,31 @@
       <property name="LCSC" value="C15127"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ec65f9d6-6993-4a63-9ac6-c50d8a84e4f1</tstamps>
     </comp>
     <comp ref="Q3">
       <value>MMBT3904</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
       <fields>
         <field name="LCSC">C20526</field>
       </fields>
-      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <libsource lib="" part="MMBT3904_1" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
       <property name="LCSC" value="C20526"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006087f47e</tstamps>
     </comp>
     <comp ref="Q4">
       <value>MMBT3904</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
       <fields>
         <field name="LCSC">C20526</field>
       </fields>
@@ -899,6 +1038,8 @@
       <property name="LCSC" value="C20526"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000608b897e</tstamps>
     </comp>
@@ -912,6 +1053,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000604b47b9</tstamps>
     </comp>
@@ -925,6 +1068,8 @@
       <property name="LCSC" value="C23186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>97bab9f6-8d1a-46d7-bb26-c7deb0ac6049</tstamps>
     </comp>
@@ -938,6 +1083,8 @@
       <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062c397fe</tstamps>
     </comp>
@@ -951,6 +1098,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006b190c72</tstamps>
     </comp>
@@ -964,6 +1113,8 @@
       <property name="LCSC" value="C21189"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000069099b20</tstamps>
     </comp>
@@ -977,6 +1128,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006b190c79</tstamps>
     </comp>
@@ -990,6 +1143,8 @@
       <property name="LCSC" value="C23186"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>76b928de-1d2d-4cf8-823c-5674792600ed</tstamps>
     </comp>
@@ -1003,6 +1158,8 @@
       <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000629d9905</tstamps>
     </comp>
@@ -1016,6 +1173,8 @@
       <property name="LCSC" value="C23212"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062fe7bab</tstamps>
     </comp>
@@ -1029,6 +1188,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f4c55f1</tstamps>
     </comp>
@@ -1042,6 +1203,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000604dfeb2</tstamps>
     </comp>
@@ -1055,6 +1218,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006aa6b45a</tstamps>
     </comp>
@@ -1068,6 +1233,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f394ffc</tstamps>
     </comp>
@@ -1081,6 +1248,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006aaf6a1c</tstamps>
     </comp>
@@ -1094,6 +1263,8 @@
       <property name="LCSC" value="C23172"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006283baac</tstamps>
     </comp>
@@ -1107,6 +1278,8 @@
       <property name="LCSC" value="C22935"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000658b4682</tstamps>
     </comp>
@@ -1120,6 +1293,8 @@
       <property name="LCSC" value="C23196"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000658b467b</tstamps>
     </comp>
@@ -1133,6 +1308,8 @@
       <property name="LCSC" value="C25822"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000066586d13</tstamps>
     </comp>
@@ -1146,6 +1323,8 @@
       <property name="LCSC" value="C22807"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006653bffd</tstamps>
     </comp>
@@ -1159,6 +1338,8 @@
       <property name="LCSC" value="C22935"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000615cbff4</tstamps>
     </comp>
@@ -1172,6 +1353,8 @@
       <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000615cbfed</tstamps>
     </comp>
@@ -1185,6 +1368,8 @@
       <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e25c832</tstamps>
     </comp>
@@ -1198,6 +1383,8 @@
       <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e2ae5d3</tstamps>
     </comp>
@@ -1211,6 +1398,8 @@
       <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e25cee8</tstamps>
     </comp>
@@ -1224,6 +1413,8 @@
       <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e2ffb4b</tstamps>
     </comp>
@@ -1237,6 +1428,8 @@
       <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006e780f69</tstamps>
     </comp>
@@ -1250,6 +1443,8 @@
       <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e853271-5e4d-48dc-b050-5390364102a3</tstamps>
     </comp>
@@ -1263,6 +1458,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1453f9f1-0154-4627-ad3f-fd26eb321394</tstamps>
     </comp>
@@ -1276,6 +1473,8 @@
       <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6294ba49-24ce-49ab-b51b-ff8967adb9e1</tstamps>
     </comp>
@@ -1289,6 +1488,8 @@
       <property name="LCSC" value="C76589"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000628374cd</tstamps>
     </comp>
@@ -1298,6 +1499,8 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000618a9b80</tstamps>
     </comp>
@@ -1307,6 +1510,8 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006194f7c6</tstamps>
     </comp>
@@ -1316,6 +1521,8 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000618aacb2</tstamps>
     </comp>
@@ -1325,6 +1532,8 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006199f9c4</tstamps>
     </comp>
@@ -1334,6 +1543,8 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000619efbb8</tstamps>
     </comp>
@@ -1361,6 +1572,8 @@
       <property name="LCSC" value="C255606"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"/>
+      <property name="ki_keywords" value="I2C TWI IO expander"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000686cc028</tstamps>
     </comp>
@@ -1388,6 +1601,8 @@
       <property name="LCSC" value="C2827693"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-666"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>70b91470-fb69-4e53-83ce-77b5d31189c5</tstamps>
     </comp>
@@ -1402,6 +1617,8 @@
       <property name="LCSC" value="C5446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="ki_keywords" value="Torex LDO Voltage Regulator Fixed Positive"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8aa294a3-c727-4560-9e50-3948bb32141a</tstamps>
     </comp>
@@ -1429,6 +1646,8 @@
       <property name="LCSC" value="C7440"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Realtime Clock/Calendar I2C Interface, SOIC-8"/>
+      <property name="ki_keywords" value="I2C RTC Clock Calendar"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f8db754-a3ce-4d44-b0f7-5b7821408203</tstamps>
     </comp>
@@ -1443,6 +1662,7 @@
       <property name="LCSC" value="C2913202"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>398a63d3-0bcd-49af-940e-cf6db0eb726a</tstamps>
     </comp>
@@ -1457,6 +1677,8 @@
       <property name="LCSC" value="C84681"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="USB serial converter, UART, SOIC-16"/>
+      <property name="ki_keywords" value="USB UART Serial Converter Interface"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>551f3682-f57a-440f-b62b-5566eceebf29</tstamps>
     </comp>
@@ -1471,6 +1693,7 @@
       <property name="LCSC" value="C528053"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="ED060XC5 E-Paper screen"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c31dd7e-f206-4a89-a629-0a636a65892c</tstamps>
     </comp>
@@ -1478,10 +1701,10 @@
       <value>TP4056</value>
       <footprint>epaper-breakout:TP4056_SOP-8-PP</footprint>
       <fields>
-        <field name="LCSC"> C16581</field>
+        <field name="LCSC">C16581</field>
       </fields>
       <libsource lib="tp4056" part="TP4056" description=""/>
-      <property name="LCSC" value=" C16581"/>
+      <property name="LCSC" value="C16581"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1497,20 +1720,40 @@
       <property name="LCSC" value="C32346"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="epaper-breakout.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3eafe2dd-ed77-42cf-ae11-75880279b28a</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x02_Female">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="" part="MMBT3904_1">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Female</field>
+        <field name="Value">Conn_01x02_Socket</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1518,15 +1761,15 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x10_Female">
-      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x10_Socket">
+      <description>Generic connector, single row, 01x10, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x10_Female</field>
+        <field name="Value">Conn_01x10_Socket</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1542,15 +1785,15 @@
         <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x12_Female">
-      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x12_Socket">
+      <description>Generic connector, single row, 01x12, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x12_Female</field>
+        <field name="Value">Conn_01x12_Socket</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1568,15 +1811,15 @@
         <pin num="12" name="Pin_12" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x13_Female">
-      <description>Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x13_Socket">
+      <description>Generic connector, single row, 01x13, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x13_Female</field>
+        <field name="Value">Conn_01x13_Socket</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1946,7 +2189,7 @@
     </libpart>
     <libpart lib="Transistor_BJT" part="MMBT3904">
       <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <docs>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
@@ -1954,7 +2197,7 @@
         <field name="Reference">Q</field>
         <field name="Value">MMBT3904</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="B" type="input"/>
@@ -2269,7 +2512,7 @@
         <pin num="6" name="~{STDBY}" type="open_collector"/>
         <pin num="7" name="~{CHRG}" type="open_collector"/>
         <pin num="8" name="CE" type="input"/>
-        <pin num="9" name="PP" type="passive"/>
+        <pin num="9" name="PP" type="input"/>
       </pins>
     </libpart>
   </libparts>
@@ -2311,16 +2554,16 @@
       <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="epd_breakout">
-      <uri>/home/vroland/dev/misc/epdiy/hardware/epdiy-v7/epd_breakout.lib</uri>
+      <uri>/home/vroland/dev/misc/epdiy-hardware/epdiy-v7/epd_breakout.lib</uri>
     </library>
     <library logical="epdiy">
-      <uri>/home/vroland/dev/misc/epdiy/hardware/epdiy-v7/epdiy.kicad_sym</uri>
+      <uri>/home/vroland/dev/misc/epdiy-hardware/epdiy-v7/epdiy.kicad_sym</uri>
     </library>
     <library logical="espressif-kicad">
-      <uri>/home/vroland/dev/misc/epdiy/hardware/epdiy-v7/kicad-libraries/libraries/Espressif.kicad_sym</uri>
+      <uri>/home/vroland/dev/misc/epdiy-hardware/epdiy-v7/kicad-libraries/libraries/Espressif.kicad_sym</uri>
     </library>
     <library logical="tp4056">
-      <uri>/home/vroland/dev/misc/epdiy/hardware/epdiy-v7/tp4056/lib/tp4056.lib</uri>
+      <uri>/home/vroland/dev/misc/epdiy-hardware/epdiy-v7/tp4056/lib/tp4056.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -2491,11 +2734,9 @@
     </net>
     <net code="26" name="/EP_STV">
       <node ref="J4" pin="31" pinfunction="STV" pintype="input"/>
-      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U10" pin="29" pinfunction="SPV" pintype="input"/>
       <node ref="U6" pin="8" pinfunction="SPV" pintype="input"/>
-      <node ref="U8" pin="27" pinfunction="GPIO0/BOOT" pintype="bidirectional"/>
+      <node ref="U8" pin="26" pinfunction="GPIO45" pintype="bidirectional"/>
     </net>
     <net code="27" name="/EP_VCOM">
       <node ref="C38" pin="1" pintype="passive"/>
@@ -2573,13 +2814,15 @@
       <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U8" pin="30" pinfunction="SPIDQS/GPIO37/FSPIQ/SUBSPIQ" pintype="bidirectional"/>
     </net>
-    <net code="44" name="/GPIO_45">
-      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="U8" pin="26" pinfunction="GPIO45" pintype="bidirectional"/>
-    </net>
-    <net code="45" name="/GPIO_46">
+    <net code="44" name="/GPIO_46">
       <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U8" pin="16" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/IO0">
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U8" pin="27" pinfunction="GPIO0/BOOT" pintype="bidirectional"/>
     </net>
     <net code="46" name="/LEH">
       <node ref="J4" pin="9" pinfunction="LEH" pintype="input"/>
@@ -2646,14 +2889,14 @@
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U4" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="I/O2" pintype="passive"/>
-      <node ref="U9" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="UD+" pintype="bidirectional"/>
     </net>
     <net code="58" name="/USB_D-">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U4" pin="1" pinfunction="I/O1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="I/O1" pintype="passive"/>
-      <node ref="U9" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+      <node ref="U9" pin="6" pinfunction="UD-" pintype="bidirectional"/>
     </net>
     <net code="59" name="/USB_RXD">
       <node ref="U8" pin="37" pinfunction="U0TXD/GPIO43/CLK_OUT1" pintype="bidirectional"/>
@@ -2839,44 +3082,27 @@
       <node ref="U8" pin="41" pinfunction="GND" pintype="passive"/>
       <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="71" name="Net-(C4-Pad2)">
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="U3" pin="7" pinfunction="INT_LDO" pintype="output"/>
+    <net code="71" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="VN_SW" pintype="output"/>
     </net>
-    <net code="72" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="U3" pin="1" pinfunction="VREF" pintype="output"/>
-    </net>
-    <net code="73" name="Net-(C20-Pad1)">
+    <net code="72" name="Net-(D2-A)">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="U3" pin="28" pinfunction="VEE_DRV" pintype="output"/>
+    <net code="73" name="Net-(D2-K)">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="VEE_D" pintype="output"/>
     </net>
-    <net code="75" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="U7" pin="1" pinfunction="OSCI" pintype="input"/>
-      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="74" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="VB_SW" pintype="output"/>
     </net>
-    <net code="76" name="Net-(C23-Pad2)">
-      <node ref="C23" pin="2" pintype="passive"/>
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-    </net>
-    <net code="77" name="Net-(C25-Pad1)">
-      <node ref="C25" pin="1" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="78" name="Net-(C25-Pad2)">
-      <node ref="C25" pin="2" pintype="passive"/>
-      <node ref="U3" pin="36" pinfunction="VDDH_DRV" pintype="output"/>
-    </net>
-    <net code="79" name="Net-(C26-Pad2)">
+    <net code="75" name="Net-(D4-K)">
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
@@ -2884,92 +3110,109 @@
       <node ref="U3" pin="42" pinfunction="VB" pintype="input"/>
       <node ref="U3" pin="43" pinfunction="VPOS_IN" pintype="input"/>
     </net>
-    <net code="80" name="Net-(C29-Pad2)">
+    <net code="76" name="Net-(D5-A)">
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U3" pin="34" pinfunction="VDDH_D" pintype="output"/>
     </net>
-    <net code="81" name="Net-(C30-Pad1)">
-      <node ref="C30" pin="1" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U3" pin="30" pinfunction="VEE_D" pintype="output"/>
+    <net code="77" name="Net-(D5-K)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(C41-Pad2)">
-      <node ref="C41" pin="2" pintype="passive"/>
-      <node ref="U7" pin="2" pinfunction="OSCO" pintype="output"/>
-      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="83" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U3" pin="25" pinfunction="VN_SW" pintype="output"/>
-    </net>
-    <net code="84" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U3" pin="40" pinfunction="VB_SW" pintype="output"/>
-    </net>
-    <net code="85" name="Net-(D8-Pad1)">
+    <net code="78" name="Net-(D8-K)">
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(D9-Pad1)">
+    <net code="79" name="Net-(D9-K)">
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(D10-Pad1)">
+    <net code="80" name="Net-(D10-K)">
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U11" pin="4" pinfunction="VCC" pintype="power_in"/>
       <node ref="U11" pin="8" pinfunction="CE" pintype="input"/>
     </net>
-    <net code="88" name="Net-(J1-PadA5)">
+    <net code="81" name="Net-(J1-CC1)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(J1-PadB5)">
+    <net code="82" name="Net-(J1-CC2)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(Q3-Pad1)">
+    <net code="83" name="Net-(JP1-B)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(Q3-B)">
       <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(Q4-Pad1)">
+    <net code="85" name="Net-(Q4-B)">
       <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U11" pin="6" pinfunction="~{STDBY}" pintype="open_collector"/>
-    </net>
-    <net code="93" name="Net-(R5-Pad1)">
+    <net code="86" name="Net-(U2-A0)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="94" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U11" pin="7" pinfunction="~{CHRG}" pintype="open_collector"/>
+    <net code="87" name="Net-(U3-INT_LDO)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="INT_LDO" pintype="output"/>
     </net>
-    <net code="95" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U11" pin="2" pinfunction="PROG" pintype="passive"/>
-    </net>
-    <net code="96" name="Net-(R18-Pad2)">
+    <net code="88" name="Net-(U3-TS)">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="TH1" pin="1" pintype="passive"/>
       <node ref="U3" pin="47" pinfunction="TS" pintype="input"/>
     </net>
-    <net code="97" name="Net-(R19-Pad2)">
+    <net code="89" name="Net-(U3-VDDH_DRV)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="VDDH_DRV" pintype="output"/>
+    </net>
+    <net code="90" name="Net-(U3-VDDH_FB)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="VDDH_FB" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U3-VEE_DRV)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="VEE_DRV" pintype="output"/>
+    </net>
+    <net code="92" name="Net-(U3-VEE_FB)">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="U3" pin="31" pinfunction="VEE_FB" pintype="input"/>
     </net>
-    <net code="98" name="Net-(R23-Pad2)">
-      <node ref="R23" pin="2" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-      <node ref="U3" pin="33" pinfunction="VDDH_FB" pintype="input"/>
+    <net code="93" name="Net-(U3-VREF)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VREF" pintype="output"/>
+    </net>
+    <net code="94" name="Net-(U7-OSCI)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="OSCI" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(U7-OSCO)">
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="OSCO" pintype="output"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(U11-PROG)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="PROG" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(U11-~{CHRG})">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="~{CHRG}" pintype="open_collector"/>
+    </net>
+    <net code="98" name="Net-(U11-~{STDBY})">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="~{STDBY}" pintype="open_collector"/>
     </net>
     <net code="99" name="VBUS">
       <node ref="C13" pin="2" pintype="passive"/>
@@ -3000,119 +3243,119 @@
       <node ref="U3" pin="10" pinfunction="VIN" pintype="input"/>
       <node ref="U3" pin="24" pinfunction="VIN_P" pintype="input"/>
     </net>
-    <net code="101" name="unconnected-(J1-PadA8)">
+    <net code="101" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(J1-PadB8)">
+    <net code="102" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(J4-Pad2)">
-      <node ref="J4" pin="2" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="104" name="unconnected-(J4-Pad4)">
-      <node ref="J4" pin="4" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="105" name="unconnected-(J4-Pad6)">
-      <node ref="J4" pin="6" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="106" name="unconnected-(J4-Pad21)">
-      <node ref="J4" pin="21" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="107" name="unconnected-(J4-Pad23)">
-      <node ref="J4" pin="23" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="108" name="unconnected-(J4-Pad25)">
-      <node ref="J4" pin="25" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="109" name="unconnected-(J4-Pad27)">
-      <node ref="J4" pin="27" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="110" name="unconnected-(J4-Pad34)">
+    <net code="103" name="unconnected-(J4-CASE_1-Pad34)">
       <node ref="J4" pin="34" pinfunction="CASE_1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(J4-Pad35)">
+    <net code="104" name="unconnected-(J4-CASE_2-Pad35)">
       <node ref="J4" pin="35" pinfunction="CASE_2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(U1-Pad4)">
+    <net code="105" name="unconnected-(J4-NC-Pad2)">
+      <node ref="J4" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J4-NC-Pad4)">
+      <node ref="J4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J4-NC-Pad6)">
+      <node ref="J4" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J4-NC-Pad21)">
+      <node ref="J4" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J4-NC-Pad23)">
+      <node ref="J4" pin="23" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J4-NC-Pad25)">
+      <node ref="J4" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J4-NC-Pad27)">
+      <node ref="J4" pin="27" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-NC-Pad4)">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="113" name="unconnected-(U2-Pad15)">
+    <net code="113" name="unconnected-(U2-IO1_2-Pad15)">
       <node ref="U2" pin="15" pinfunction="IO1_2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(U3-Pad11)">
+    <net code="114" name="unconnected-(U3-NC-Pad11)">
       <node ref="U3" pin="11" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(U3-Pad13)">
+    <net code="115" name="unconnected-(U3-NC-Pad13)">
       <node ref="U3" pin="13" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(U3-Pad20)">
+    <net code="116" name="unconnected-(U3-NC-Pad20)">
       <node ref="U3" pin="20" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(U3-Pad38)">
+    <net code="117" name="unconnected-(U3-NC-Pad38)">
       <node ref="U3" pin="38" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(U3-Pad39)">
+    <net code="118" name="unconnected-(U3-NC-Pad39)">
       <node ref="U3" pin="39" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(U6-Pad2)">
+    <net code="119" name="unconnected-(U6-NC-Pad2)">
       <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="120" name="unconnected-(U6-Pad4)">
+    <net code="120" name="unconnected-(U6-NC-Pad4)">
       <node ref="U6" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="121" name="unconnected-(U6-Pad35)">
+    <net code="121" name="unconnected-(U6-NC-Pad35)">
       <node ref="U6" pin="35" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="122" name="unconnected-(U6-Pad37)">
+    <net code="122" name="unconnected-(U6-NC-Pad37)">
       <node ref="U6" pin="37" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="123" name="unconnected-(U6-Pad39)">
+    <net code="123" name="unconnected-(U6-NC-Pad39)">
       <node ref="U6" pin="39" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="124" name="unconnected-(U9-Pad7)">
+    <net code="124" name="unconnected-(U9-NC-Pad7)">
       <node ref="U9" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="125" name="unconnected-(U9-Pad8)">
+    <net code="125" name="unconnected-(U9-NC-Pad8)">
       <node ref="U9" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="126" name="unconnected-(U9-Pad9)">
-      <node ref="U9" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
-    </net>
-    <net code="127" name="unconnected-(U9-Pad10)">
-      <node ref="U9" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
-    </net>
-    <net code="128" name="unconnected-(U9-Pad11)">
-      <node ref="U9" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
-    </net>
-    <net code="129" name="unconnected-(U9-Pad12)">
-      <node ref="U9" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
-    </net>
-    <net code="130" name="unconnected-(U9-Pad15)">
+    <net code="126" name="unconnected-(U9-R232-Pad15)">
       <node ref="U9" pin="15" pinfunction="R232" pintype="input+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(U10-Pad4)">
+    <net code="127" name="unconnected-(U9-~{CTS}-Pad9)">
+      <node ref="U9" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U9-~{DCD}-Pad12)">
+      <node ref="U9" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U9-~{DSR}-Pad10)">
+      <node ref="U9" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U9-~{RI}-Pad11)">
+      <node ref="U9" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U10-NC-Pad4)">
       <node ref="U10" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="132" name="unconnected-(U10-Pad5)">
+    <net code="132" name="unconnected-(U10-NC-Pad5)">
       <node ref="U10" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="133" name="unconnected-(U10-Pad22)">
+    <net code="133" name="unconnected-(U10-NC-Pad22)">
       <node ref="U10" pin="22" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="134" name="unconnected-(U10-Pad23)">
+    <net code="134" name="unconnected-(U10-NC-Pad23)">
       <node ref="U10" pin="23" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="135" name="unconnected-(U10-Pad24)">
+    <net code="135" name="unconnected-(U10-NC-Pad24)">
       <node ref="U10" pin="24" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="136" name="unconnected-(U10-Pad25)">
+    <net code="136" name="unconnected-(U10-NC-Pad25)">
       <node ref="U10" pin="25" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="137" name="unconnected-(U10-Pad30)">
+    <net code="137" name="unconnected-(U10-NC-Pad30)">
       <node ref="U10" pin="30" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="138" name="unconnected-(U11-Pad9)">
-      <node ref="U11" pin="9" pinfunction="PP" pintype="passive+no_connect"/>
+    <net code="138" name="unconnected-(U11-PP-Pad9)">
+      <node ref="U11" pin="9" pinfunction="PP" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
