@@ -18,7 +18,5 @@ jobs:
           pip install kikit
           sudo apt install make cmark xsltproc
       - name: build present page
-        run: 
-          make web
-
+        run: make web
       - run: tree build/
