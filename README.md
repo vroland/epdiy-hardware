@@ -1,6 +1,7 @@
 # EPDiy Hardware 
 
 Design files for [EPDiy](https://github.com/vroland/epdiy) controllers, controller variants, display adaptors, and other related hardware.  
+See [vroland.github.io/epdiy-hardware/](https://vroland.github.io/epdiy-hardware/) for available hardware.
 
 ## What is EPDiy?
 
