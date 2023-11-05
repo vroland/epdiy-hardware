@@ -1,6 +1,6 @@
 .PHONY: web
 
-BOARDS = epdiy-v7 epdiy-v6 extension-cable
+BOARDS = epdiy-v7 epdiy-v6 epdiy-v5 extension-cable
 
 web: build/web/index.html
 
