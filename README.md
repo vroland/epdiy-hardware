@@ -10,8 +10,25 @@ Please refer to the [main project repository](https://github.com/vroland/epdiy) 
 
 Make sure to clone recursively, to get hardware library submodules:
 ```
-git clone git@github.com:vroland/epdiy.git --recursive
+git clone git@github.com:vroland/epdiy-hardware.git --recursive
+# or with http
+git clone https://github.com/vroland/epdiy-hardware.git --recursive
 ```
+
+## Contributing Hardware
+
+Contributions in the form of adapter boards, utilities or epdiy variants are always welcome!
+Please submit a PR and make sure your KiCAD project is in the right format, so our automation can build 
+the manufacturing files and overview page:
+
+* For every board, the KiCAD project should be given a unique name, and have the same name as the containing folder. 
+  Example: `epdiy-v7/epdiy-v7.{kicad_pro,kicad_pcb,kicad_sch}`. 
+  An existing KiCAD project can be renamed by selecting `File -> Save As` in the main KiCAD window and saving it to a folder with the new name.
+* Each board needs a README.md in it's project folder, which will also appear as description in the presentation page.
+  Refer to `epdiy-v7/README.md` for an example.
+* If it's a helper or an adapter board, place it in the appropriate `helpers` or `adapters` folder.
+* Delete the manufacturing files and keep only the sources.
+  Since we generate those automatically, having potentially outdated ones in the repo will be confusing. 
 
 ## Available Hardware
 
