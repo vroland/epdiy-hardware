@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "epd_breakout")(type "Legacy")(uri "/home/vroland/dev/misc/epaper-breakout/hardware/epaper-breakout/epd_breakout.lib")(options "")(descr ""))
+  (lib (name "extension-cable-rescue")(type "KiCad")(uri "${KIPRJMOD}/extension-cable-rescue.kicad_sym")(options "")(descr ""))
+)
