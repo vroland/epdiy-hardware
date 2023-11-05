@@ -1,12 +1,12 @@
 .PHONY: web
 
-BOARDS = epdiy-v7 epdiy-v6 epdiy-v5 extension-cable
+BOARDS = epdiy-v7 epdiy-v6 epdiy-v5 adapters/33pin_extension
 
 web: build/web/index.html
 
 .SECONDEXPANSION:
-build/boards/%: $$*/$$*.kicad_pcb $$*/$$*.kicad_sch
-	mkdir -p build/boards
+build/boards/%: $$*/$$(notdir $$*).kicad_pcb $$*/$$(notdir $$*).kicad_sch
+	mkdir -p $(dir $@)
 	kicad-cli sch export pdf $(word 2,$^) -o $@_schematic.pdf
 	kicad-cli sch export python-bom $(word 2,$^) -o $@_BoM.xml
 	xsltproc -o $@_BoM.csv present/bom2grouped_csv_jlcpcb.xsl $@_BoM.xml
@@ -21,8 +21,8 @@ build/web/index.html: README.md present/template/index.html $(addprefix build/bo
 	kikit present boardpage \
 		-d $< \
 		--name "EPDiy" \
-		$(shell for board in ${BOARDS}; do echo -n "-b" $$board "\"\$$(cmark $$board/README.md)\"" "$$board/$$board.kicad_pcb " ; done)  \
+		$(shell for board in ${BOARDS}; do echo -n "-b" $$board "\"\$$(cmark $$board/README.md)\"" "$$board/$$(basename $$board).kicad_pcb " ; done)  \
 		--repository 'https://github.com/vroland/epdiy-hardware' \
 		--template present/template/ \
-		$$(for f in build/boards/*; do echo "-r $$f"; done)  \
+		$$(for f in $$(find build/boards/ -type f); do echo "-r $$f"; done)  \
 		build/web
