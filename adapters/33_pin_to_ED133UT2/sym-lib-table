@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ed133ut2_connector-rescue")(type "KiCad")(uri "${KIPRJMOD}/ed133ut2_connector-rescue.kicad_sym")(options "")(descr ""))
+)
