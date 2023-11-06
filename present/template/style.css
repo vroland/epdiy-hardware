@@ -91,6 +91,16 @@ input::placeholder{
 table{
     border-collapse:collapse
 }
+tbody td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: scroll;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #edf2f7;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-size:inherit;
     font-weight:inherit
@@ -106,6 +116,7 @@ input{
 }
 code,pre{
     font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace
+    overflow-x: scroll;
 }
 .container{
     width:100%
