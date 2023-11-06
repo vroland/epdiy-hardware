@@ -17,6 +17,7 @@ build/boards/%: $$*/$$(notdir $$*).kicad_pcb $$*/$$(notdir $$*).kicad_sch
 	touch $@
 
 build/page.md: README.md part_alternatives.md
+	mkdir -p build/
 	cat $^ > $@
 
 build/web/index.html: build/page.md present/template/index.html $(addprefix build/boards/,$(BOARDS))
