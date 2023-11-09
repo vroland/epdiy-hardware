@@ -6750,6 +6750,7 @@
     (stroke (width 0) (type default))
     (uuid ffcab022-cbcc-4b49-a43c-f5c2d16ab9a7)
   )
+
   (text "Battery Voltage Sense" (at 167.64 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06d728ab-cf81-4a9c-ab17-421594613f12)
@@ -8076,7 +8077,7 @@
     (pin "1" (uuid 844a059a-5f20-494e-8e66-2490707d73aa))
     (pin "2" (uuid d189288b-9111-4276-9cd9-c0d529363831))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C2") (unit 1)
         )
@@ -8105,7 +8106,7 @@
     (pin "1" (uuid 2f68d7bd-9850-4681-9ac1-f430f92280dd))
     (pin "2" (uuid 18a55cb0-0bea-45a5-aa30-526736693757))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C3") (unit 1)
         )
@@ -8114,7 +8115,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 144.78 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ed40f79)
     (property "Reference" "H1" (at 147.32 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8129,7 +8130,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "H1") (unit 1)
         )
@@ -8138,7 +8139,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 144.78 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ed4192f)
     (property "Reference" "H2" (at 147.32 73.7616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8153,7 +8154,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "H2") (unit 1)
         )
@@ -8162,7 +8163,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 144.78 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ed421f3)
     (property "Reference" "H3" (at 147.32 80.1116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8177,7 +8178,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "H3") (unit 1)
         )
@@ -8206,7 +8207,7 @@
     (pin "1" (uuid ecc270d5-3cc4-4db5-a061-69e05fe02ff2))
     (pin "2" (uuid 99f15e33-7e2c-4f0c-a818-585f86a7e3bb))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R15") (unit 1)
         )
@@ -8231,7 +8232,7 @@
     )
     (pin "1" (uuid 7a5a5e62-e5e1-410c-87fc-50cda6a466cb))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0115") (unit 1)
         )
@@ -8260,7 +8261,7 @@
     (pin "1" (uuid 7f0ed4c5-31ab-4338-8207-ab41ea8992a7))
     (pin "2" (uuid ce652335-1469-49d9-97e2-53dfa1b2e8ed))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C17") (unit 1)
         )
@@ -8289,7 +8290,7 @@
     (pin "1" (uuid 536ae333-1878-4ed9-92e5-3cf1b042c649))
     (pin "2" (uuid 84d47db6-16c9-4d3c-9513-f3a52eed39c9))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C18") (unit 1)
         )
@@ -8318,7 +8319,7 @@
     (pin "1" (uuid 92652ea8-5bf3-4af1-8f5e-b39bd594dd11))
     (pin "2" (uuid be644686-cf61-4fff-8dc2-27814c089f5e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R10") (unit 1)
         )
@@ -8347,7 +8348,7 @@
     (pin "1" (uuid 6d854498-5020-462f-9d45-97622e437a9d))
     (pin "2" (uuid c7d79d12-cc59-4c29-a2cf-5e2f6d3dd36e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C15") (unit 1)
         )
@@ -8376,7 +8377,7 @@
     (pin "1" (uuid 53aa9bb3-a3c9-4103-83c8-196855059bad))
     (pin "2" (uuid d165ed0b-0b60-41f1-b721-6adecf9b5dc4))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C23") (unit 1)
         )
@@ -8405,7 +8406,7 @@
     (pin "1" (uuid fe4af07b-30cd-412a-8acd-dd66dccf58e8))
     (pin "2" (uuid b2c278c7-c3fe-4ef2-94d1-7f8378a68154))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R1") (unit 1)
         )
@@ -8434,7 +8435,7 @@
     (pin "1" (uuid 014f4709-8e4e-4be2-8a5c-6115047c085b))
     (pin "2" (uuid aef4dec3-7f6f-420d-be74-cd1e5a705be2))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R11") (unit 1)
         )
@@ -8510,7 +8511,7 @@
     (pin "8" (uuid 426122c8-07f1-408a-bf12-c1d308a7775a))
     (pin "9" (uuid 09eb7a03-c5ea-4ead-b0a5-11333ab5c143))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U3") (unit 1)
         )
@@ -8539,7 +8540,7 @@
     (pin "1" (uuid 77b9490a-9bdf-4e9d-a17c-7126f9c0081c))
     (pin "2" (uuid 9170fc2b-a9e7-4e98-bb9d-2e7d533f20a8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "L2") (unit 1)
         )
@@ -8569,7 +8570,7 @@
     (pin "2" (uuid 770bacd1-585a-4820-8a8c-3863e0989878))
     (pin "3" (uuid f8724d55-f92a-4ff3-a3a0-fafed838ed48))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "Q3") (unit 1)
         )
@@ -8598,7 +8599,7 @@
     (pin "1" (uuid d8aaa8f2-ab30-415c-b956-31eca1eeefd4))
     (pin "2" (uuid 97e96fc2-fccb-47d7-815f-f2e56a38d261))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D4") (unit 1)
         )
@@ -8628,7 +8629,7 @@
     (pin "2" (uuid 5d47f233-0f04-4971-b9d2-f0869959f37e))
     (pin "3" (uuid 1f6fc1c9-27d6-4aff-99d3-ba8d2359b83c))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "Q4") (unit 1)
         )
@@ -8653,7 +8654,7 @@
     )
     (pin "1" (uuid def12398-9981-4e3d-b246-c65e9cd32ffa))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0101") (unit 1)
         )
@@ -8682,7 +8683,7 @@
     (pin "1" (uuid 6c19b024-b412-444b-87de-30473a3f1eea))
     (pin "2" (uuid 53635b46-954f-4bfd-aef9-98438f4e5fe5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C32") (unit 1)
         )
@@ -8711,7 +8712,7 @@
     (pin "1" (uuid 09ac5d8a-a66c-4e26-9c0d-e13c763fc48f))
     (pin "2" (uuid b5ffce4f-d8e0-4448-b59e-48a50e690551))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D5") (unit 1)
         )
@@ -8740,7 +8741,7 @@
     (pin "1" (uuid 34fc9888-848b-4b23-a1e1-62dd5ab70158))
     (pin "2" (uuid 84e0e752-3ac9-4fca-ab3a-555e196a2495))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D6") (unit 1)
         )
@@ -8769,7 +8770,7 @@
     (pin "1" (uuid 5062fff1-bb92-498d-ab7c-e5b62e492260))
     (pin "2" (uuid 21fcc177-a586-43ab-b28e-a48fa5df16bb))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C29") (unit 1)
         )
@@ -8798,7 +8799,7 @@
     (pin "1" (uuid 37a60381-0c42-4f85-a6a5-34da4f96e3eb))
     (pin "2" (uuid 7d30f06c-18e1-440b-b352-54f5b8d54997))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C25") (unit 1)
         )
@@ -8827,7 +8828,7 @@
     (pin "1" (uuid f1ebfdba-c921-42f1-b267-09b0964817ee))
     (pin "2" (uuid 68a1b0d2-aa9e-417c-b45a-fe76a0c15078))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R24") (unit 1)
         )
@@ -8856,7 +8857,7 @@
     (pin "1" (uuid 2ae905b7-ef41-48fd-8274-1db67d7cd1db))
     (pin "2" (uuid d98e5464-7063-47dd-b6e1-41dab0f03853))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R23") (unit 1)
         )
@@ -8885,7 +8886,7 @@
     (pin "1" (uuid f90b4571-58ba-4b6a-a98a-d99987e534a3))
     (pin "2" (uuid efbc357d-cd5c-4427-a15a-e18d0effb8be))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C28") (unit 1)
         )
@@ -8894,7 +8895,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 107.95 261.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000618a9b80)
     (property "Reference" "TP1" (at 109.4232 258.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8910,7 +8911,7 @@
     )
     (pin "1" (uuid 8c248887-a3d3-46b1-b698-7955600457d2))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TP1") (unit 1)
         )
@@ -8919,7 +8920,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 132.08 261.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000618aacb2)
     (property "Reference" "TP3" (at 133.5532 258.6228 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8935,7 +8936,7 @@
     )
     (pin "1" (uuid bcce02de-a3c1-4a7b-9898-de631695d94b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TP3") (unit 1)
         )
@@ -8964,7 +8965,7 @@
     (pin "1" (uuid 3bd16698-6e76-4190-a5cf-6a60cc32329b))
     (pin "2" (uuid 725e7e19-c6fd-4c3a-aa61-ccc9586a825b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C33") (unit 1)
         )
@@ -8973,7 +8974,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 27.94 250.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006194f7c6)
     (property "Reference" "TP2" (at 29.4132 247.1928 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8989,7 +8990,7 @@
     )
     (pin "1" (uuid 069372e9-68c3-4cae-9bca-d4f5ceb79142))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TP2") (unit 1)
         )
@@ -8998,7 +8999,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 52.07 250.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006199f9c4)
     (property "Reference" "TP4" (at 53.5432 247.1928 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9014,7 +9015,7 @@
     )
     (pin "1" (uuid 79a6fd32-1c0d-4e62-8291-dfc104e5b615))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TP4") (unit 1)
         )
@@ -9023,7 +9024,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 76.2 250.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000619efbb8)
     (property "Reference" "TP5" (at 77.6732 247.1928 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9039,7 +9040,7 @@
     )
     (pin "1" (uuid a5fb739f-1f11-48c3-8c6f-5f7a851363a6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TP5") (unit 1)
         )
@@ -9064,7 +9065,7 @@
     )
     (pin "1" (uuid 76ac6927-5c9c-4c90-8b05-e86877ed382d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0102") (unit 1)
         )
@@ -9093,7 +9094,7 @@
     (pin "1" (uuid c342dec8-b757-4363-a53a-7f2ebf7d26a7))
     (pin "2" (uuid 2d6e842e-01f3-4e2a-9766-fac3fb46deb5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C40") (unit 1)
         )
@@ -9118,7 +9119,7 @@
     )
     (pin "1" (uuid 3a17c9db-bee6-40e2-a655-ea6f2378a0e7))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR01") (unit 1)
         )
@@ -9127,7 +9128,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 190.5 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061d1a55b)
     (property "Reference" "J5" (at 187.7568 144.145 0)
       (effects (font (size 1.27 1.27)))
@@ -9144,7 +9145,7 @@
     (pin "1" (uuid 4ade5cc0-94d4-498d-b0dd-8069ba4b09d8))
     (pin "2" (uuid 68b623e1-fd18-440f-89a3-d0392e561664))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J5") (unit 1)
         )
@@ -9173,7 +9174,7 @@
     (pin "1" (uuid 55491c60-f704-4f2a-bd71-c27fcf37c942))
     (pin "2" (uuid 9bb4b91b-6789-4138-a944-d7499bf94ee6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C26") (unit 1)
         )
@@ -9202,7 +9203,7 @@
     (pin "1" (uuid a2ed1506-6bad-40bf-8753-b57d9da4dd01))
     (pin "2" (uuid efe3b984-3407-4e4f-bdbe-95336c90b8ad))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C31") (unit 1)
         )
@@ -9231,7 +9232,7 @@
     (pin "1" (uuid 3ddc7492-d463-474e-81ad-9a6c0b81d157))
     (pin "2" (uuid b716745e-9418-4a47-aabe-33b650e72a7b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "TH1") (unit 1)
         )
@@ -9260,7 +9261,7 @@
     (pin "1" (uuid 7914946f-52ed-42af-a1d4-6801a519eb0b))
     (pin "2" (uuid 3837d7a5-c77d-494a-bfe0-6f0ea671d48b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R18") (unit 1)
         )
@@ -9289,7 +9290,7 @@
     (pin "1" (uuid 980b1a4e-248e-4fa2-84ec-d96ffd3f8bac))
     (pin "2" (uuid 7e455868-4b45-4e9b-8ea0-6379acbad944))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R8") (unit 1)
         )
@@ -9314,7 +9315,7 @@
     )
     (pin "1" (uuid b7140f34-e787-45f6-95a5-5e4ce38335e6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0104") (unit 1)
         )
@@ -9343,7 +9344,7 @@
     (pin "1" (uuid 388d0533-43f3-43f1-8a59-f4778250201c))
     (pin "2" (uuid 481d4d6e-aea0-4c11-bf77-a789f641fe74))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C9") (unit 1)
         )
@@ -9372,7 +9373,7 @@
     (pin "1" (uuid 67f8a14a-eb6d-4023-8795-49cfd473767c))
     (pin "2" (uuid ce30b0b1-0993-49dc-b0a5-d071cb044685))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C5") (unit 1)
         )
@@ -9408,7 +9409,7 @@
     (pin "8" (uuid 746470a5-6810-4e6c-ade6-d81bbe98c4b1))
     (pin "9" (uuid 4b893f67-71cc-4343-9fb3-742a64a31ab9))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U11") (unit 1)
         )
@@ -9437,7 +9438,7 @@
     (pin "1" (uuid 0b605d51-b8f2-4457-a2f7-7593fa8ee1ac))
     (pin "2" (uuid 07ca47df-40b5-4410-ae64-c528261d1740))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R3") (unit 1)
         )
@@ -9466,7 +9467,7 @@
     (pin "1" (uuid 80bcab32-e355-40fd-92c1-0ae6e8e7f466))
     (pin "2" (uuid 63860b06-57ad-476e-8a9b-1b1b27f8e26d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C12") (unit 1)
         )
@@ -9495,7 +9496,7 @@
     (pin "1" (uuid 0ee2bd0d-29d2-4702-b770-978c78dc823f))
     (pin "2" (uuid 2e56f694-155b-4086-8911-0af7cf106b05))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D9") (unit 1)
         )
@@ -9524,7 +9525,7 @@
     (pin "1" (uuid c4e78e79-33e0-4051-add7-03ec10bae904))
     (pin "2" (uuid 9a14edc9-910b-414b-bbcc-31cdd7598bfa))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D8") (unit 1)
         )
@@ -9553,7 +9554,7 @@
     (pin "1" (uuid bc2018b7-f8b5-4b72-86f6-a2fda111c3db))
     (pin "2" (uuid 0c5cba30-513e-4dc3-b653-fff6cbdbce2b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "L1") (unit 1)
         )
@@ -9578,7 +9579,7 @@
     )
     (pin "1" (uuid b968be15-7618-4245-978b-a6be84e63b11))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0105") (unit 1)
         )
@@ -9607,7 +9608,7 @@
     (pin "1" (uuid 12b336e7-d300-4d1b-a1e7-f400ff870ed5))
     (pin "2" (uuid 6018d25f-2db1-476f-9ca5-27e724e438e1))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D1") (unit 1)
         )
@@ -9636,7 +9637,7 @@
     (pin "1" (uuid c4eaf2be-7904-44e1-9328-360a3c74fa0f))
     (pin "2" (uuid 27713c5c-4d2d-472f-a735-bab979a2676e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R9") (unit 1)
         )
@@ -9665,7 +9666,7 @@
     (pin "1" (uuid e5b10be2-b0c6-4e35-9cda-a93a4c72230d))
     (pin "2" (uuid f104fd01-45eb-494a-8916-30a79578107f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C24") (unit 1)
         )
@@ -9690,7 +9691,7 @@
     )
     (pin "1" (uuid 797697ed-00a5-4422-90e6-2f8f5c839ce6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR011") (unit 1)
         )
@@ -9715,7 +9716,7 @@
     )
     (pin "1" (uuid 35894c6b-e700-4e53-ad54-9fbd5cd1d3d7))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0106") (unit 1)
         )
@@ -9744,7 +9745,7 @@
     (pin "1" (uuid 6b058084-e301-44fc-bba5-60597610c64e))
     (pin "2" (uuid c7e1c476-de20-41b2-9927-c3254d665414))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C1") (unit 1)
         )
@@ -9773,7 +9774,7 @@
     (pin "1" (uuid 795f3100-cc70-4550-880a-3e16fc6a2b58))
     (pin "2" (uuid bc97d817-f5f3-421a-bd22-b290a9d98149))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C22") (unit 1)
         )
@@ -9802,7 +9803,7 @@
     (pin "1" (uuid 1c3774ef-6985-45e9-9f59-d6ffc632369f))
     (pin "2" (uuid cdc12365-8f0b-4ef8-b71a-cde927d32039))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C7") (unit 1)
         )
@@ -9831,7 +9832,7 @@
     (pin "1" (uuid 644c1bd0-4250-400c-9184-38b4838fd2dc))
     (pin "2" (uuid 3ef2b01d-ef1f-4561-8816-a7d7e046c47d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D2") (unit 1)
         )
@@ -9860,7 +9861,7 @@
     (pin "1" (uuid cc3c92b2-5cad-4767-9000-286cfeffce2b))
     (pin "2" (uuid f35c2626-2e35-4cbd-afd0-6a4003ace18e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D3") (unit 1)
         )
@@ -9889,7 +9890,7 @@
     (pin "1" (uuid 997a6c22-fe8b-4fce-b42f-f3acaec591cb))
     (pin "2" (uuid fd75ea9f-3a6f-4f0f-b061-fc8c3fe57160))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C8") (unit 1)
         )
@@ -9918,7 +9919,7 @@
     (pin "1" (uuid 01e7b58c-9d59-45ae-9bca-bf914bcff3ed))
     (pin "2" (uuid 7334abf3-dccf-465a-80b4-135c7aa07864))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C20") (unit 1)
         )
@@ -9947,7 +9948,7 @@
     (pin "1" (uuid c7269c87-5501-41ea-893b-fe7b0d4381ce))
     (pin "2" (uuid 16c27850-62e5-42f2-8d0c-3f087a7252de))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C30") (unit 1)
         )
@@ -9976,7 +9977,7 @@
     (pin "1" (uuid 9933451b-6813-4b79-b3f3-fba924f39c15))
     (pin "2" (uuid 81a859ce-1a9f-4ee2-8893-1c0b8972b3c9))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R20") (unit 1)
         )
@@ -10005,7 +10006,7 @@
     (pin "1" (uuid c184a3de-ec2b-42d6-813e-e8b27d8d3e58))
     (pin "2" (uuid 60abc658-1906-4c72-a4f3-d40fcfd1b446))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R19") (unit 1)
         )
@@ -10034,7 +10035,7 @@
     (pin "1" (uuid ce6cb5eb-4dda-4ab4-b9ab-cd1fcd995847))
     (pin "2" (uuid b43234d2-08ed-425b-81f7-3118c15f2e6e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C27") (unit 1)
         )
@@ -10059,7 +10060,7 @@
     )
     (pin "1" (uuid 9e9feb02-7709-41b9-8065-23e1f110a492))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0113") (unit 1)
         )
@@ -10088,7 +10089,7 @@
     (pin "1" (uuid 26497bdc-39b8-447d-95ad-afd1423fef48))
     (pin "2" (uuid fc76c1a4-6f36-4496-adef-f1f8aa450aae))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D10") (unit 1)
         )
@@ -10113,7 +10114,7 @@
     )
     (pin "1" (uuid c481e12a-8fa1-4dfc-8cd8-4c5c0b96b618))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0122") (unit 1)
         )
@@ -10138,7 +10139,7 @@
     )
     (pin "1" (uuid 6ecbb364-86c8-4057-9ddf-401d6abd8b32))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0123") (unit 1)
         )
@@ -10167,7 +10168,7 @@
     (pin "1" (uuid 0a8ccfa6-f27c-4278-8be9-b1c62222f0f3))
     (pin "2" (uuid ce0ec37a-5829-4991-9f45-9e141f49d2a0))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C4") (unit 1)
         )
@@ -10196,7 +10197,7 @@
     (pin "1" (uuid 0bf383da-2ff6-4482-84b8-b5650932250e))
     (pin "2" (uuid eefdd40f-1c86-4b2e-8562-eb5d7d9fd49e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R22") (unit 1)
         )
@@ -10225,7 +10226,7 @@
     (pin "1" (uuid b0b98aa9-9979-4064-ba38-2efa2a1e435d))
     (pin "2" (uuid 6b350c45-4397-4648-88aa-be3fc3dba21a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R21") (unit 1)
         )
@@ -10254,7 +10255,7 @@
     (pin "1" (uuid 446e82d7-5d44-455d-a3f9-ef5f02ab985c))
     (pin "2" (uuid bfbe82a1-2b12-49e1-bc56-ee6831deb4c5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C11") (unit 1)
         )
@@ -10279,7 +10280,7 @@
     )
     (pin "1" (uuid 0631eab1-a5c3-4f88-bae2-ec5b8cbb9cb8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0121") (unit 1)
         )
@@ -10304,7 +10305,7 @@
     )
     (pin "1" (uuid d77bcc49-2cf2-49d5-b5d5-c75d52601c3a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0124") (unit 1)
         )
@@ -10329,7 +10330,7 @@
     )
     (pin "1" (uuid 8f45d727-b081-4434-bf42-ae71df17c8ff))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0125") (unit 1)
         )
@@ -10354,7 +10355,7 @@
     )
     (pin "1" (uuid f469ec18-2938-4513-be9c-87dabfd776a6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0126") (unit 1)
         )
@@ -10379,7 +10380,7 @@
     )
     (pin "1" (uuid 6c806d7b-7bb5-42fa-8103-91faa1203499))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0127") (unit 1)
         )
@@ -10404,7 +10405,7 @@
     )
     (pin "1" (uuid 83b043ab-3db4-4356-88de-61aefb34fcff))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0128") (unit 1)
         )
@@ -10429,7 +10430,7 @@
     )
     (pin "1" (uuid ceba0ff0-19ab-4d0c-8a4b-eb8e230ef18e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#FLG0103") (unit 1)
         )
@@ -10454,7 +10455,7 @@
     )
     (pin "1" (uuid 9b4676fc-498b-4bdd-806e-d627a0442bcd))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0129") (unit 1)
         )
@@ -10479,7 +10480,7 @@
     )
     (pin "1" (uuid 88426009-e6f4-499f-9256-0a913394d393))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0130") (unit 1)
         )
@@ -10504,7 +10505,7 @@
     )
     (pin "1" (uuid cf463148-c674-4774-8853-15f6e70082ce))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0131") (unit 1)
         )
@@ -10533,7 +10534,7 @@
     (pin "1" (uuid e9181acb-57f9-4ffb-94b4-08699fc70483))
     (pin "2" (uuid d49baf70-f42f-4baf-b578-11ced4e28e14))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C19") (unit 1)
         )
@@ -10558,7 +10559,7 @@
     )
     (pin "1" (uuid b92e37a3-d7f4-4fc5-9a31-4314c33eb977))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0132") (unit 1)
         )
@@ -10583,7 +10584,7 @@
     )
     (pin "1" (uuid e36143ba-dcc8-4e4b-94b9-2aa88a5136cc))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0133") (unit 1)
         )
@@ -10608,7 +10609,7 @@
     )
     (pin "1" (uuid 7a19d474-90e0-4403-8d6a-ed69a6014a60))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0134") (unit 1)
         )
@@ -10659,7 +10660,7 @@
     (pin "8" (uuid 59ab90e9-f9a5-4af4-8142-0351fdd2f055))
     (pin "9" (uuid 1686df1b-cb91-423a-b081-618d44eefc83))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U2") (unit 1)
         )
@@ -10684,7 +10685,7 @@
     )
     (pin "1" (uuid 5bd502e0-d2d2-469f-9e74-ea591f27a61f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0135") (unit 1)
         )
@@ -10713,7 +10714,7 @@
     (pin "1" (uuid 866a0a8f-b40f-4b50-985e-c315879df9fc))
     (pin "2" (uuid ed9390e2-ef0a-458f-9c98-61c72dca4f3c))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R5") (unit 1)
         )
@@ -10738,7 +10739,7 @@
     )
     (pin "1" (uuid c67f3f66-e997-46a9-b79f-ff54885748c5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0136") (unit 1)
         )
@@ -10763,7 +10764,7 @@
     )
     (pin "1" (uuid debd5c33-e197-4a87-833e-bd055f3a5c96))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0137") (unit 1)
         )
@@ -10788,7 +10789,7 @@
     )
     (pin "1" (uuid 087b32c5-97bb-4ecb-b010-72c88f4c1c5a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0138") (unit 1)
         )
@@ -10817,7 +10818,7 @@
     (pin "1" (uuid 797cf595-f383-4146-8693-08429f1bfda8))
     (pin "2" (uuid aac539b9-2eed-461e-9db9-e2f081eaf22e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R14") (unit 1)
         )
@@ -10846,7 +10847,7 @@
     (pin "1" (uuid 83dfa005-25fa-449f-b655-8d5e0d717669))
     (pin "2" (uuid 4fe53dd0-429f-4b8c-b0f9-3e13d34720a0))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R16") (unit 1)
         )
@@ -10875,7 +10876,7 @@
     (pin "1" (uuid 4dce1c02-6008-413d-b906-0dd7578b61e4))
     (pin "2" (uuid e55d5598-83e7-423f-bdec-df6cee42191e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R4") (unit 1)
         )
@@ -10904,7 +10905,7 @@
     (pin "1" (uuid 4317fd99-70b5-419d-a2a9-7e1a9338a922))
     (pin "2" (uuid 9e14f44b-1411-4f5d-811f-c56233f91e24))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R6") (unit 1)
         )
@@ -10933,7 +10934,7 @@
     (pin "1" (uuid 38db7669-0f43-4136-9ef4-ccda8c114734))
     (pin "2" (uuid 59b2b5f5-6c09-433d-86f3-6a213516b470))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C10") (unit 1)
         )
@@ -10962,7 +10963,7 @@
     (pin "1" (uuid 3bba1f5a-a895-48c0-8d00-70a9a64e0312))
     (pin "2" (uuid 31a5c9b5-55e9-45d0-9dab-4b50bef4d638))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C6") (unit 1)
         )
@@ -10987,7 +10988,7 @@
     )
     (pin "1" (uuid ce773549-8982-4315-88a3-7797ae9c4a24))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#FLG0102") (unit 1)
         )
@@ -11012,7 +11013,7 @@
     )
     (pin "1" (uuid 80ad29f6-b521-4cd0-a5b1-6dc189e48bcf))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#FLG0107") (unit 1)
         )
@@ -11041,7 +11042,7 @@
     (pin "1" (uuid 3a05e550-8d6b-4d26-9466-a52e1e10fd7f))
     (pin "2" (uuid 4ced3346-0d86-4072-a88e-3636e0e47276))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R26") (unit 1)
         )
@@ -11070,7 +11071,7 @@
     (pin "1" (uuid 2a6d3415-c091-47bb-97d6-299b8e479848))
     (pin "2" (uuid d8873f0f-783a-491d-a70f-803fa724db91))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R28") (unit 1)
         )
@@ -11099,7 +11100,7 @@
     (pin "1" (uuid f0df5553-6aa8-42a7-ac48-5be730b54a77))
     (pin "2" (uuid 9ced13a5-a595-4b0e-9112-c064943bf768))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R27") (unit 1)
         )
@@ -11128,7 +11129,7 @@
     (pin "1" (uuid f75a384a-88fd-435d-a3e1-65f80edd6123))
     (pin "2" (uuid 1cf11688-b95b-45c0-b16a-19da4703b814))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R29") (unit 1)
         )
@@ -11157,7 +11158,7 @@
     (pin "1" (uuid dde5ea97-5538-4c4b-b6c7-3751125efe0d))
     (pin "2" (uuid a53e1492-397d-4e7f-baaa-a7222e367e66))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C34") (unit 1)
         )
@@ -11186,7 +11187,7 @@
     (pin "1" (uuid a02d28cf-8d6f-402a-9c9d-9859030f2a9d))
     (pin "2" (uuid b55527b8-9e1e-46ae-8b03-74bf61d121c5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C35") (unit 1)
         )
@@ -11215,7 +11216,7 @@
     (pin "1" (uuid 5ed390b8-101e-4baf-9b66-e3c99ec79032))
     (pin "2" (uuid a41dd8b4-4106-499b-8c79-11603272ee74))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C37") (unit 1)
         )
@@ -11244,7 +11245,7 @@
     (pin "1" (uuid c968d1e6-957e-42b7-9d1f-1dcc28497772))
     (pin "2" (uuid eb587833-12e7-4a64-886b-265d55dabb6f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C36") (unit 1)
         )
@@ -11273,7 +11274,7 @@
     (pin "1" (uuid a228ec4c-e5de-4ea9-a885-8ff8c7756de4))
     (pin "2" (uuid 51bba160-4f86-4d86-8aba-98720517cbc6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R30") (unit 1)
         )
@@ -11302,7 +11303,7 @@
     (pin "1" (uuid e22e3ff0-7d98-4464-89f3-a3e65ac5271e))
     (pin "2" (uuid a7320818-9dbf-4700-be71-a0ce516e1e12))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C38") (unit 1)
         )
@@ -11327,7 +11328,7 @@
     )
     (pin "1" (uuid d49e9174-594a-46fb-9e29-eb398df4d9d4))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR04") (unit 1)
         )
@@ -11352,7 +11353,7 @@
     )
     (pin "1" (uuid 869adb13-faf1-4145-8649-fbd310d7239a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR02") (unit 1)
         )
@@ -11377,7 +11378,7 @@
     )
     (pin "1" (uuid b71dbc3b-ebfd-4fc0-9cf2-fe665450e18e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR034") (unit 1)
         )
@@ -11409,7 +11410,7 @@
     (pin "4" (uuid f047bb17-8908-430d-90fc-55caefcf8fce))
     (pin "5" (uuid dd5c64b3-eeab-4890-9602-15d9bf96f437))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U1") (unit 1)
         )
@@ -11434,7 +11435,7 @@
     )
     (pin "1" (uuid 2f2b7817-9b32-4036-b923-e55ee74a4af5))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR013") (unit 1)
         )
@@ -11463,7 +11464,7 @@
     (pin "1" (uuid 1a7ca529-d5e2-4e7a-81bb-6451ba36bb22))
     (pin "2" (uuid 9454e2aa-9fe8-4eeb-8bd5-d8f84a213f3a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R32") (unit 1)
         )
@@ -11492,7 +11493,7 @@
     (pin "1" (uuid 6fa2027c-94fc-4572-a2af-ce3501a2cf05))
     (pin "2" (uuid fc09f930-42d8-49fc-b148-e6bbe52a5cc6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C14") (unit 1)
         )
@@ -11517,7 +11518,7 @@
     )
     (pin "1" (uuid b2699e3f-3cf0-4246-8ca6-0adb835a2e5f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR032") (unit 1)
         )
@@ -11542,7 +11543,7 @@
     )
     (pin "1" (uuid cae4aa2c-36d7-4a9d-a48d-af1f7400e9ba))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR026") (unit 1)
         )
@@ -11567,7 +11568,7 @@
     )
     (pin "1" (uuid 377178d1-9023-4598-af2c-d713b2d19ddc))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR025") (unit 1)
         )
@@ -11635,7 +11636,7 @@
     (pin "8" (uuid 46c11c38-d37c-4759-889a-2478c70a7834))
     (pin "9" (uuid 78c92efb-080b-4bc2-bdc6-6232886da9a8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U8") (unit 1)
         )
@@ -11660,7 +11661,7 @@
     )
     (pin "1" (uuid c70184f4-62a6-4d14-9bfd-40ca50802b5d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR06") (unit 1)
         )
@@ -11685,7 +11686,7 @@
     )
     (pin "1" (uuid 79e36488-6420-46af-83c3-586310adf3a7))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR030") (unit 1)
         )
@@ -11710,7 +11711,7 @@
     )
     (pin "1" (uuid 9494fde7-6597-4809-8bc7-a22c2f1cfd65))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR024") (unit 1)
         )
@@ -11739,7 +11740,7 @@
     (pin "1" (uuid ffb5de72-a22e-4225-b45a-113641944516))
     (pin "2" (uuid 41e6e65d-ffb9-4c36-ae20-f5f6c778d50b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "Y1") (unit 1)
         )
@@ -11764,7 +11765,7 @@
     )
     (pin "1" (uuid 49bb8d73-ad5b-4eef-a8fb-fed9bd3c947f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR029") (unit 1)
         )
@@ -11789,7 +11790,7 @@
     )
     (pin "1" (uuid 7fe26053-0be4-45b1-938b-42d5526dd130))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR09") (unit 1)
         )
@@ -11851,7 +11852,7 @@
     (pin "8" (uuid 6e0ce29d-bc55-49c0-916f-3f2de85b3a3a))
     (pin "9" (uuid 712fbc2a-4d94-4d62-a97d-cfb559c0c6da))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J4") (unit 1)
         )
@@ -11876,7 +11877,7 @@
     )
     (pin "1" (uuid be14844d-dfe0-4723-a8dc-ee943c46b328))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR015") (unit 1)
         )
@@ -11901,7 +11902,7 @@
     )
     (pin "1" (uuid d521229f-f30a-4de5-b82a-6d09ade4efab))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR021") (unit 1)
         )
@@ -11910,7 +11911,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 187.96 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4990364f-565c-424d-aefa-025bdb82251b)
     (property "Reference" "JP1" (at 187.96 112.5052 0)
       (effects (font (size 1.27 1.27)))
@@ -11927,7 +11928,7 @@
     (pin "1" (uuid e61dd0b6-6533-445b-a94e-7d919aa5bb84))
     (pin "2" (uuid 0043a9ec-dd85-46b4-96d9-7aa89a632483))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "JP1") (unit 1)
         )
@@ -11952,7 +11953,7 @@
     )
     (pin "1" (uuid 6defd423-3424-468b-a9a3-65f00f7f4b7a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR03") (unit 1)
         )
@@ -11977,7 +11978,7 @@
     )
     (pin "1" (uuid b419d65b-f15f-448d-a99e-5415fa6a06b6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR07") (unit 1)
         )
@@ -12044,7 +12045,7 @@
     (pin "8" (uuid 310c0c0e-41da-4413-935a-9d0d5b3b9ac4))
     (pin "9" (uuid aa310759-b99b-4be3-a91d-cfe5ddb8e688))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U6") (unit 1)
         )
@@ -12087,7 +12088,7 @@
     (pin "8" (uuid d408c264-e311-4be0-a444-7e7ccadd3ea9))
     (pin "9" (uuid 5c426457-7bcd-4209-a10f-34bc289db036))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U9") (unit 1)
         )
@@ -12096,7 +12097,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x12_Socket") (at 336.55 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 552c621f-124b-44f2-ba23-19b8f7615df6)
     (property "Reference" "J7" (at 332.74 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12123,7 +12124,7 @@
     (pin "8" (uuid d4bc7449-e8cc-42ba-812f-1ad107839d5b))
     (pin "9" (uuid 6641e151-174a-478c-8756-19c02f6e60a3))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J7") (unit 1)
         )
@@ -12148,7 +12149,7 @@
     )
     (pin "1" (uuid bc3632f3-feaa-4cd8-a951-dc744804eff9))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR036") (unit 1)
         )
@@ -12173,7 +12174,7 @@
     )
     (pin "1" (uuid 062fbdf9-856f-4f4a-a664-34b2d4dde8bd))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR028") (unit 1)
         )
@@ -12198,7 +12199,7 @@
     )
     (pin "1" (uuid 566d7aad-cd24-4725-bb45-35a9b80cc877))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR05") (unit 1)
         )
@@ -12259,7 +12260,7 @@
     (pin "8" (uuid 4c5202ea-d7b9-492e-a06a-a15cd146b248))
     (pin "9" (uuid b105849e-4844-49fb-9d75-616078b611b1))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U10") (unit 1)
         )
@@ -12284,7 +12285,7 @@
     )
     (pin "1" (uuid 0e11717e-e784-413f-8085-25fb37767e0f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR020") (unit 1)
         )
@@ -12313,7 +12314,7 @@
     (pin "1" (uuid 72c9d9f1-4e33-4fce-9b61-7e4adbfc4e15))
     (pin "2" (uuid 1f325a1f-2c6f-453d-803d-2e92afe75514))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R33") (unit 1)
         )
@@ -12338,7 +12339,7 @@
     )
     (pin "1" (uuid 50e074b9-ab9b-4a6c-bf43-b6f0b12df6e8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR035") (unit 1)
         )
@@ -12363,7 +12364,7 @@
     )
     (pin "1" (uuid 095dd5f2-4d86-4adb-9f73-953294875844))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#U0102") (unit 1)
         )
@@ -12407,7 +12408,7 @@
     (pin "B9" (uuid ad147a07-092a-4905-af07-60539d414b75))
     (pin "S1" (uuid a5408503-ba65-408c-81a1-f0f2d564e09c))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J1") (unit 1)
         )
@@ -12432,7 +12433,7 @@
     )
     (pin "1" (uuid f3d6ba45-b3eb-4a16-8bb9-333557c10da4))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR027") (unit 1)
         )
@@ -12457,7 +12458,7 @@
     )
     (pin "1" (uuid aab3f521-2687-4de8-ad7b-1529612e9aff))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0107") (unit 1)
         )
@@ -12490,7 +12491,7 @@
     (pin "5" (uuid e59d7fed-f16a-4ee2-8005-7768d48ecc51))
     (pin "6" (uuid 41d7091c-9fd7-445e-811a-5bade0a5d409))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U4") (unit 1)
         )
@@ -12519,7 +12520,7 @@
     (pin "1" (uuid 125dcafd-d597-4da2-997f-10b845026f15))
     (pin "2" (uuid a6d9a424-5c1f-40d8-a264-ad653197d764))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R7") (unit 1)
         )
@@ -12528,7 +12529,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 243.84 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7f5d26c1-da43-48f5-89fa-20b58ba5100c)
     (property "Reference" "JP2" (at 243.84 144.78 0)
       (effects (font (size 1.27 1.27)))
@@ -12545,7 +12546,7 @@
     (pin "1" (uuid b01e4f89-a9fc-42b2-8637-5731401623a8))
     (pin "2" (uuid 3b334ab4-9e51-461f-95b2-305f0c500171))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "JP2") (unit 1)
         )
@@ -12580,7 +12581,7 @@
     (pin "7" (uuid 0cf1ac18-4f60-4a47-8bab-25d5c9a0750d))
     (pin "8" (uuid cf8341ad-4dce-4e39-acd0-b0ddbbdb2014))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U7") (unit 1)
         )
@@ -12605,7 +12606,7 @@
     )
     (pin "1" (uuid 061c22e5-27ae-450a-bb0c-1ac668e33b6e))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR033") (unit 1)
         )
@@ -12630,7 +12631,7 @@
     )
     (pin "1" (uuid 38202866-b997-4578-af12-d36bfdccd42f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR018") (unit 1)
         )
@@ -12655,7 +12656,7 @@
     )
     (pin "1" (uuid eea377ad-bf19-47ba-8d65-28b1f58b5b32))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#FLG0101") (unit 1)
         )
@@ -12684,7 +12685,7 @@
     (pin "1" (uuid d13ec336-1610-42a7-9294-3de949f8003f))
     (pin "2" (uuid 58d0688b-7707-4107-94e9-95b33267d3d8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C16") (unit 1)
         )
@@ -12693,7 +12694,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x10_Socket") (at 355.6 232.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8682d78b-471e-4d1f-8beb-0ed8a66386d4)
     (property "Reference" "J6" (at 356.87 232.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12718,7 +12719,7 @@
     (pin "8" (uuid 81a41e41-4417-4cca-a55d-e1d853fb285e))
     (pin "9" (uuid 55f07a0c-2e04-4b52-96a8-c030da8645d6))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J6") (unit 1)
         )
@@ -12748,7 +12749,7 @@
     (pin "2" (uuid 6d9d0c72-77f2-4b8d-87a5-3f848f62c846))
     (pin "3" (uuid 40d09d4d-3545-4748-8007-7dbe0e279c02))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "U5") (unit 1)
         )
@@ -12777,7 +12778,7 @@
     (pin "1" (uuid 4c3af166-1c90-4e6d-96f1-803d023d95f2))
     (pin "2" (uuid 3291cdf0-55f6-4411-8c64-7944803858ac))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "D7") (unit 1)
         )
@@ -12806,7 +12807,7 @@
     (pin "1" (uuid 5d93923d-506d-4e73-8bf8-9f47557afe96))
     (pin "2" (uuid bb1abcf1-c920-4644-a0ce-97d03777c06d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R2") (unit 1)
         )
@@ -12831,7 +12832,7 @@
     )
     (pin "1" (uuid 7e55b4d7-4c3b-4fde-b661-d89bc22a4383))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR037") (unit 1)
         )
@@ -12856,7 +12857,7 @@
     )
     (pin "1" (uuid a950721f-de71-45b2-ac4a-336c6839653a))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR012") (unit 1)
         )
@@ -12885,7 +12886,7 @@
     (pin "1" (uuid 18366261-5cee-491c-b413-d6515a8211f0))
     (pin "2" (uuid 1a752859-e15e-46ef-8f0a-1988d66ec94f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "R31") (unit 1)
         )
@@ -12914,7 +12915,7 @@
     (pin "1" (uuid cfde972d-e0e0-4f08-bb64-8b928164adc2))
     (pin "2" (uuid ca89ded8-32e2-47a7-ac1a-64dd30f33c7d))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C13") (unit 1)
         )
@@ -12943,7 +12944,7 @@
     (pin "1" (uuid 0baf7275-1867-401d-8bd5-b5f66afeb2f4))
     (pin "2" (uuid 9c5ab9b4-96a0-44b3-99d0-724844f70377))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C39") (unit 1)
         )
@@ -12968,7 +12969,7 @@
     )
     (pin "1" (uuid 63793222-f1f1-4743-9236-dc1195417496))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR010") (unit 1)
         )
@@ -12993,7 +12994,7 @@
     )
     (pin "1" (uuid 8b681c8e-a147-454e-80a6-551809bc50ef))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR017") (unit 1)
         )
@@ -13022,7 +13023,7 @@
     (pin "1" (uuid 19adc142-3488-46c5-8758-a31faefa2aab))
     (pin "2" (uuid dc5c26a1-17ca-4efa-8665-c096efeb981b))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C41") (unit 1)
         )
@@ -13047,7 +13048,7 @@
     )
     (pin "1" (uuid 6b47e026-e727-4e2b-b8e7-4b89a9fb4bb8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR023") (unit 1)
         )
@@ -13072,7 +13073,7 @@
     )
     (pin "1" (uuid 3fe0a833-28e2-4753-bb06-04fc2c56fce2))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR08") (unit 1)
         )
@@ -13097,7 +13098,7 @@
     )
     (pin "1" (uuid 33757d4e-81a4-421d-909f-cdc858ff48b1))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR019") (unit 1)
         )
@@ -13122,7 +13123,7 @@
     )
     (pin "1" (uuid f9faa73c-8e38-498d-b020-9778f8f597e0))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR014") (unit 1)
         )
@@ -13147,7 +13148,7 @@
     )
     (pin "1" (uuid a21a928b-6f71-4891-acfe-04ffba6e3795))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#U0101") (unit 1)
         )
@@ -13156,7 +13157,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 316.23 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d88e71f5-1a08-4840-93fa-64a9c6d119a8)
     (property "Reference" "J3" (at 316.9412 140.1353 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -13173,7 +13174,7 @@
     (pin "1" (uuid 5daa9f35-1652-4e3b-8096-15daf8524a3d))
     (pin "2" (uuid a2551c04-4f0b-42e9-bc8d-f6d854915dff))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J3") (unit 1)
         )
@@ -13198,7 +13199,7 @@
     )
     (pin "1" (uuid 2b29837e-1292-4219-a165-600abd8970d0))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR031") (unit 1)
         )
@@ -13207,7 +13208,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x13_Socket") (at 383.54 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid dd2ccf87-f27e-49b7-9550-ef47088cbdf5)
     (property "Reference" "J2" (at 384.81 172.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -13235,7 +13236,7 @@
     (pin "8" (uuid 7b5773a7-11e8-41a6-980b-25b6374929fd))
     (pin "9" (uuid 28272303-b7fe-41f7-921d-fa7f4e3b1ef2))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "J2") (unit 1)
         )
@@ -13262,7 +13263,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#SYM1") (unit 1)
         )
@@ -13287,7 +13288,7 @@
     )
     (pin "1" (uuid b0059b4c-8d2a-4158-b3d0-bd20014b7a74))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR0103") (unit 1)
         )
@@ -13316,7 +13317,7 @@
     (pin "1" (uuid 434cbcf1-9f26-48e2-9a06-0587d196106a))
     (pin "2" (uuid 7a3900aa-8c27-43cb-930a-14a592f41b06))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C42") (unit 1)
         )
@@ -13346,7 +13347,7 @@
     (pin "2" (uuid 4213a693-ea76-4a5e-aa52-0beacb280512))
     (pin "3" (uuid 7ca61650-2ac7-417f-a612-604e8c95f31c))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "Q1") (unit 1)
         )
@@ -13371,7 +13372,7 @@
     )
     (pin "1" (uuid a9a393e3-f7d7-4c62-99cc-64bb5b05b452))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR022") (unit 1)
         )
@@ -13396,7 +13397,7 @@
     )
     (pin "1" (uuid bb31a6cf-3e22-4e67-9aa8-0d048675c90f))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#U0104") (unit 1)
         )
@@ -13421,7 +13422,7 @@
     )
     (pin "1" (uuid 5192d458-2f55-4eee-b29f-c1c562fc1da8))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "#PWR016") (unit 1)
         )
@@ -13430,7 +13431,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 144.78 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f7700e89-c3d0-4e2d-8b4e-b25758089bcf)
     (property "Reference" "H4" (at 147.32 86.4616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -13445,7 +13446,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "H4") (unit 1)
         )
@@ -13474,7 +13475,7 @@
     (pin "1" (uuid 0eaa51b9-80e4-49f7-aadc-8942c5a93ba2))
     (pin "2" (uuid 329c5105-ee3b-407e-8ee4-d0089720d653))
     (instances
-      (project "epaper-breakout"
+      (project "epdiy-v7"
         (path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
           (reference "C21") (unit 1)
         )
