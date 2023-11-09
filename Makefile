@@ -12,6 +12,7 @@ build/boards/%: $$*/$$(notdir $$*).kicad_pcb $$*/$$(notdir $$*).kicad_sch
 	xsltproc -o $@_BoM.csv present/bom2grouped_csv_jlcpcb.xsl $@_BoM.xml
 	#
 	kicad-cli pcb export pos $< --side front --format csv --units mm -o $@_top_pos.csv
+	sed -e '1 s/Ref/Designator/' -e '1 s/PosX/Mid X/' -e '1 s/PosY/Mid Y/' -e '1 s/Rot/Rotation/' -e '1 s/Side/Layer/' $@_top_pos.csv > $@_pos_jlcpcb.csv
 	kicad-cli pcb export step --subst-models $< -o $@_model.step
 	xz $@_model.step
 	touch $@
