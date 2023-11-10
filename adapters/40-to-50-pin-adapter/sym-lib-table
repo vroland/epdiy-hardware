@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "extension-cable-rescue")(type "KiCad")(uri "${KIPRJMOD}/../../epdiy-v6/epdiy-v6-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "axe")(type "KiCad")(uri "${KIPRJMOD}/component/symbols/AXE650124.kicad_sym")(options "")(descr ""))
+)
