@@ -5,11 +5,13 @@ All this might change as the idea develops but initially the plan is the followi
 
 - Same v7 idea using TPS65185 and PCA9535PW as IO expander and slow signals manager
 - Only 8 bit connectors for now: 6 inch (33 pin) and 9 inch (34 pin) FPC if possible located in a way where the USB is left at the edge of the case
-- SD Card, since we have many IOs available, connected with 4 data pins so it is as fast as possible. This does not necessarily needs to be at the side of the case since we will expose a second USB and it can be used as internal mass storage device.
+- SD Card, since we have many IOs available, connected with 4 data pins so it is as fast as possible. This does not necessarily needs to be at the side of the case since we have an USB port that can be used as internal mass storage device.
 - Only one USB that goes directly to S3, this might be used to flash it too, but additionally we will provide
 - External UART pinup: TX, RX, RST, DTR, 5V, GND in case you need to flash it and the DFU USB does not work (Might happen)
 - No UART chip, hence no need to add an additional LDO, saving space
 - Expose all non-used GPIOs. 
+
+The first version will not have epdiy but only the bare silicon and some GPIOs exposed. The goal is to make many checks in the first revision to have the basics right before even attempting to add the epdiy high voltage circuit and rest of the signals for an 8 bit epaper display.
 
 **IMPORTANT: Do not send this by any means to fabrication.** The RF is like dark Magic for me and I'm 99% sure that the WiFi / BLE part of this board will not work.
 As you can read below, learning this is actually very hard, and RF is not something you can **copy and paste** from another board. The RF part has to match and be callibrated for your board in S3 and newer chips, otherwise the Silicon itself might get hot and do not work correctly.
