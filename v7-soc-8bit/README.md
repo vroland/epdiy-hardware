@@ -11,6 +11,9 @@ All this might change as the idea develops but initially the plan is the followi
 - No UART chip, hence no need to add an additional LDO, saving space
 - Expose all non-used GPIOs. 
 
+**IMPORTANT: Do not send this by any means to fabrication.** The RF is like dark Magic for me and I'm 99% sure that the WiFi / BLE part of this board will not work.
+As you can read below, learning this is actually very hard, and RF is not something you can **copy and paste** from another board. The RF part has to match and be callibrated for your board in S3 and newer chips, otherwise the Silicon itself might get hot and do not work correctly.
+
 ## Selected S3 SoC
 
 [ESP32-S3(FN8)](https://jlcpcb.com/partdetail/EspressifSystems-ESP32_S3_FN8/C2913196) 8 MB flash needs external PSRAM chip
@@ -37,3 +40,6 @@ As a base we are going to use a board from designers that know how to resolve th
 
 https://github.com/tinypico/tinypico-hardware/blob/master/TinyPICO%20V2%20Schematics/TinyPICO_V2_P2_Schematic.pdf
 https://github.com/sparkfun/ESP32_Thing/tree/master/Hardware Sparkfun has most of their boards open source (Note: They use Eagle software to design their boards)
+https://esp32.com/viewtopic.php?t=31083 S3 only with SoC
+https://www.reddit.com/r/PrintedCircuitBoard/comments/yhefyf/schematics_design_review_request_for_my_esp32s3/ esp32S3 review schematics
+https://jlcpcb.com/partdetail/Ect-ECT818000071/C437252 Inner needle IPEX Board Edge 1.25mm 
