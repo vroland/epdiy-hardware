@@ -7,4 +7,5 @@ fp-info-cache
 *-backups/
 build/
 *-rescue.*
+*saved_files#
 

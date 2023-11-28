@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/ESP32-S3FN8.kicad_sym")(options "")(descr ""))
+  (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/Crystal_ECS_40Mhz.kicad_sym")(options "")(descr ""))
+)
