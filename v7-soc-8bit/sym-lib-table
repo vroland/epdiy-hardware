@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/ESP32-S3FN8.kicad_sym")(options "")(descr ""))
   (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/Crystal_ECS_40Mhz.kicad_sym")(options "")(descr ""))
-  (lib (name "RF Antenna")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/RFANT3216120A1T.kicad_sym")(options "")(descr ""))
+  (lib (name "RF Antenna")(type "KiCad")(uri "${KIPRJMOD}/component/symbol/2450AT42E0100E-ANT.kicad_sym")(options "")(descr ""))
 )
