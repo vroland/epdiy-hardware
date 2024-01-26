@@ -6934,7 +6934,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ce1f9644-bf61-4010-9f14-39901dff60cb)
   )
-  (label "TP_RES" (at 207.01 171.45 0) (fields_autoplaced)
+  (label "TP_RST" (at 207.01 171.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d02d44f1-4896-4956-aef8-f0bb5655c22b)
   )
