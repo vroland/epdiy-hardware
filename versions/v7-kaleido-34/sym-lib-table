@@ -1,7 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "epd_breakout")(type "Legacy")(uri "${KIPRJMOD}/symbols/epd_breakout.lib")(options "")(descr ""))
-  (lib (name "esp32-wrover")(type "Legacy")(uri "${KIPRJMOD}/esp32-wrover-kicad/esp32-wrover.lib")(options "")(descr ""))
+  (lib (name "esp32-wrover")(type "Legacy")(uri "${KIPRJMOD}/esp32-wrover-kicad/esp32-wrover.lib")(options "")(descr "")(disabled)(hidden))
   (lib (name "74HC4094")(type "Legacy")(uri "${KIPRJMOD}/symbols/74HC4094.lib")(options "")(descr ""))
   (lib (name "ed060sc4")(type "Legacy")(uri "${KIPRJMOD}/symbols/ed060sc4.lib")(options "")(descr ""))
   (lib (name "epaper-breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/../../epdiy-v7/epdiy-v7-rescue.lib")(options "")(descr ""))
@@ -12,4 +12,6 @@
   (lib (name "espressif-kicad")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/libraries/Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "epdiy")(type "KiCad")(uri "${KIPRJMOD}/../../epdiy-v7/epdiy.kicad_sym")(options "")(descr ""))
   (lib (name "FL_connector")(type "KiCad")(uri "${KIPRJMOD}/symbols/FH34SRJ-6S-0_5SH_99.kicad_sym")(options "")(descr ""))
+  (lib (name "FL_Paperwhite_AXT")(type "KiCad")(uri "${KIPRJMOD}/symbols/AXT-310124.kicad_sym")(options "")(descr ""))
+  (lib (name "FL_Led_driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/RY3730_Led_PWM.kicad_sym")(options "")(descr ""))
 )
