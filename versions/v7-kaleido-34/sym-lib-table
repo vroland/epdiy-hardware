@@ -15,4 +15,5 @@
   (lib (name "FL_Paperwhite_AXT")(type "KiCad")(uri "${KIPRJMOD}/symbols/AXT-310124.kicad_sym")(options "")(descr ""))
   (lib (name "FL_Led_driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/RY3730_Led_PWM.kicad_sym")(options "")(descr ""))
   (lib (name "MicroSD")(type "KiCad")(uri "${KIPRJMOD}/symbols/THD2528-11SD-GF.kicad_sym")(options "")(descr ""))
+  (lib (name "Qwiic")(type "KiCad")(uri "${KIPRJMOD}/symbols/QWIIC_SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
 )
