@@ -1,4 +1,4 @@
-(footprint "FH34SRJ6S05SH99" (version 20221018) (generator pcbnew)
+(footprint "FH34SRJ6S05SH99_Mirrored" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "FH34SRJ-6S-0.5SH(99)")
   (tags "Connector")
@@ -7,7 +7,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 5461e1c8-814a-4462-ba06-6d4f72460289)
   )
-  (fp_text value "FH34SRJ6S05SH99" (at 0.12 3.31) (layer "F.SilkS") hide
+  (fp_text value "FH34SRJ6S05SH99_Mirrored" (at 0.12 3.31) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp b5a73aed-0107-4ed6-8804-3352c69d9e30)
   )
@@ -83,12 +83,12 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6d6cd8f4-dd07-4558-88c9-527394ebb504))
   (fp_line (start 2.5 1.45) (end 2.5 -1.45)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5a49b685-6230-4bde-83d7-6a8bd0b53616))
-  (pad "1" smd rect (at -1.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4c2b1f33-6fc1-40ba-97c7-11e916e643b0))
-  (pad "2" smd rect (at -0.75 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e6a5b28-4ba0-4dbc-9a92-6b701e0c8bc4))
-  (pad "3" smd rect (at -0.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dbf50f1c-3a9c-4b51-ad02-6f42e6340e2d))
-  (pad "4" smd rect (at 0.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ffe1a30-fa89-4160-840d-0ec9405b6173))
-  (pad "5" smd rect (at 0.75 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e726b580-02cf-4a12-8789-394e29d031f3))
-  (pad "6" smd rect (at 1.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 57ca2959-f709-4bd5-8814-c3ba5ac84b8a))
+  (pad "1" smd rect (at 1.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 57ca2959-f709-4bd5-8814-c3ba5ac84b8a))
+  (pad "2" smd rect (at 0.75 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e726b580-02cf-4a12-8789-394e29d031f3))
+  (pad "3" smd rect (at 0.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ffe1a30-fa89-4160-840d-0ec9405b6173))
+  (pad "4" smd rect (at -0.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dbf50f1c-3a9c-4b51-ad02-6f42e6340e2d))
+  (pad "5" smd rect (at -0.75 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e6a5b28-4ba0-4dbc-9a92-6b701e0c8bc4))
+  (pad "6" smd rect (at -1.25 -1.6) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4c2b1f33-6fc1-40ba-97c7-11e916e643b0))
   (pad "MP1" smd rect (at 2.25 0.9) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 535ed2b7-4f28-4dbb-bf44-79d278e3f820))
   (pad "MP2" smd rect (at -2.25 0.9) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5246005e-f855-4932-957c-6982fc5546b3))
   (model "FH34SRJ-6S-0.5SH_99_.stp"
