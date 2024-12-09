@@ -6,7 +6,7 @@
     (property "Value" "WP27D-S050VA3-R15000" (at 0 -43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CONN-SMD_50P-P0.35_WP27D-S050VA3" (at 0 -45.72 0)
+    (property "Footprint" "easyeda2kicad:CONN-SMD_50P-P0.35_WP27D-S050VA3" (at 0 -45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
