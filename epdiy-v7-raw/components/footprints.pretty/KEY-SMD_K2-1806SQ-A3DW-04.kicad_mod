@@ -1,0 +1,235 @@
+(footprint "KEY-SMD_K2-1806SQ-A3DW-04"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.87 0)
+		(layer "F.SilkS")
+		(uuid "507d8d2e-ecf7-4134-901a-1ba33720cf42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEY-SMD_K2-1806SQ-A3DW-04"
+		(at 0 4.87 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd6a7d23-69eb-4306-9784-916da43012fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3187982b-8925-45b3-8f4a-c837d0f72d67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4cc64f9-da86-4032-9048-d41a934a47b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75093662-7bf8-4fe0-a308-5646498d4f01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.09 0.99)
+		(end -2.09 0.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "668501f9-2cdb-405c-99a8-c96b3f3529dc")
+	)
+	(fp_line
+		(start -0.81 -1.15)
+		(end -0.81 -1.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d00d6473-afd9-414f-ac4d-f27e9550219f")
+	)
+	(fp_line
+		(start 0.72 -1.8)
+		(end 0.72 -1.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63aa42c8-5085-4b6f-a593-b29967055fa7")
+	)
+	(fp_line
+		(start 2.2 1)
+		(end 2.2 0.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16f68a01-df8f-4ca2-bb84-8b0a8b818740")
+	)
+	(fp_circle
+		(center -1.9 -0.5)
+		(end -1.8 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cb1cf5e0-24d4-4001-856b-1b41e227b0d2")
+	)
+	(fp_circle
+		(center 1.9 -0.5)
+		(end 2 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "aed1a4b0-2286-494c-a914-c46e161536d9")
+	)
+	(fp_circle
+		(center 1.98 0.96)
+		(end 2.01 0.96)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "87b119d8-ebfa-4491-8559-4b8938ba7d97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.03 2.01 0)
+		(layer "F.Fab")
+		(uuid "89c69896-50b8-4b06-98cb-a8d9c1a00fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.3 0.83 180)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bbc6594f-d71e-4db1-b882-5068033a37ed")
+	)
+	(pad "2" smd rect
+		(at -1.3 0.83 180)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14611190-d04d-48b3-8cab-b29aeb8ab5b9")
+	)
+	(pad "3" smd rect
+		(at 0 0.87 270)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da656934-82ea-4a70-8123-a31f44315e3f")
+	)
+	(pad "4" thru_hole circle
+		(at -1.9 -0.5)
+		(size 1 1)
+		(drill 0.500024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d3e2b5e-f1db-4b60-8dca-cd3347f1e5a5")
+	)
+	(pad "4" smd custom
+		(at -1.9 -0.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.9 0.45) (xy -0.9 -1.15) (xy 0.9 -1.15) (xy 0.9 -0.25) (xy 0.4 -0.25) (xy 0.4 0.45)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "4a5600ca-1490-4f89-ae97-23211fb7fc8b")
+	)
+	(pad "5" thru_hole circle
+		(at 1.9 -0.5)
+		(size 1 1)
+		(drill 0.500024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bcaf098-1a5b-4c58-961c-dd4115c2db38")
+	)
+	(pad "5" smd custom
+		(at 1.9 -0.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.9 0.45) (xy 0.9 -1.15) (xy -0.9 -1.15) (xy -0.9 -0.25) (xy -0.4 -0.25) (xy -0.4 0.45)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "e9d79643-7339-41e1-9e44-befb885de062")
+	)
+	(model "${KIPRJMOD}/components/3d/KEY-SMD_K2_L4.0-W2.9-H1.6-P3.75.step"
+		(offset
+			(xyz -0 0.48 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
