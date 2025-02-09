@@ -177,6 +177,17 @@
 		(uuid "897c2f4f-ab27-4a8e-b6d5-0b044866e32e")
 	)
 	(fp_circle
+		(center 0.009352 0)
+		(end 2.67 0)
+		(stroke
+			(width 1.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Paste")
+		(uuid "cc139323-e806-410e-829b-2fca8f5942a7")
+	)
+	(fp_circle
 		(center 0 0)
 		(end 3.5 0)
 		(stroke
@@ -217,7 +228,7 @@
 		(remove_unused_layers no)
 		(uuid "585338e7-bc4d-4ec8-bd21-933d8375c467")
 	)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SMD_BD5.6-L5.6-W5.6-D3.6.wrl"
+	(model "${KIPRJMOD}/components/3d/C2916320_SMTSO2015CTJ.stp"
 		(offset
 			(xyz 0 -0 1.53)
 		)
@@ -225,7 +236,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 0)
 		)
 	)
 )
