@@ -10,4 +10,7 @@
   (lib (name "epdiy")(type "KiCad")(uri "${KIPRJMOD}/epdiy.kicad_sym")(options "")(descr ""))
   (lib (name "WP_CONN")(type "KiCad")(uri "${KIPRJMOD}/components/Symbols/C3640690.kicad_sym")(options "")(descr ""))
   (lib (name "BUTTON")(type "KiCad")(uri "${KIPRJMOD}/components/Symbols/C2845289_button.kicad_sym")(options "")(descr ""))
+  (lib (name "ACCEL")(type "KiCad")(uri "${KIPRJMOD}/components/Symbols/C50278_MPU-6500.kicad_sym")(options "")(descr ""))
+  (lib (name "NUT")(type "KiCad")(uri "${KIPRJMOD}/components/Symbols/C2916320_SMD_nut.kicad_sym")(options "")(descr ""))
+  (lib (name "Side-button")(type "KiCad")(uri "${KIPRJMOD}/components/Symbols/C19100323_K2-side-button.kicad_sym")(options "")(descr ""))
 )
