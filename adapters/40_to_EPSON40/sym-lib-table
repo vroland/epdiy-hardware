@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WP_CONN")(type "KiCad")(uri "${KIPRJMOD}/components/C3640690.kicad_sym")(options "")(descr ""))
+)

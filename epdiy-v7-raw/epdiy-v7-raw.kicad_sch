@@ -12217,10 +12217,6 @@
 		(uuid "cb99aec4-b58d-41ea-a3fc-b9483eb48ca9")
 	)
 	(no_connect
-		(at 281.94 313.69)
-		(uuid "cc66a3e8-758f-491e-a246-da347ef57f76")
-	)
-	(no_connect
 		(at 369.57 190.5)
 		(uuid "d4e0878d-3fee-4c80-9638-8c6720677d83")
 	)
@@ -17042,6 +17038,16 @@
 		)
 		(uuid "eb295112-8dd0-43bb-869a-9d16a01ce06a")
 	)
+	(wire
+		(pts
+			(xy 252.73 304.165) (xy 258.445 304.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4aeb9f-9b95-4221-b993-474a33de4b97")
+	)
 	(polyline
 		(pts
 			(xy 59.69 135.89) (xy 59.69 140.97)
@@ -17599,6 +17605,16 @@
 			(type none)
 		)
 		(uuid edf664fa-6839-42b6-beea-bb531e379e8e)
+	)
+	(text "NOTE: IC2 Address default is 0x68\n      Needs SD0 high to be 0x69"
+		(exclude_from_sim no)
+		(at 248.285 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0022d944-d596-41ae-b530-441ed683f63c")
 	)
 	(text "Start pulse SOURCE"
 		(exclude_from_sim no)
@@ -18506,6 +18522,16 @@
 		)
 		(uuid "4b6e5016-138c-4109-be01-fe5b384a2433")
 	)
+	(label "ADD_69"
+		(at 266.065 304.165 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ba78f1a-bfde-4575-b9e3-aaf09fb4fd45")
+	)
 	(label "XSTL"
 		(at 369.57 226.06 0)
 		(effects
@@ -19370,6 +19396,16 @@
 		)
 		(uuid "b7d599ea-d344-4558-ae60-480f34a6bf47")
 	)
+	(label "ADD_69"
+		(at 281.94 313.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b832223b-6880-4914-972d-8e3e92bb9cab")
+	)
 	(label "D1"
 		(at 300.99 214.63 0)
 		(effects
@@ -19898,6 +19934,38 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 252.73 304.165 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c801710-a418-41a3-96ac-e6983cd84cff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.2866 304.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Referenzen zwischen Schaltplänen" "${INTERSHEET_REFS}"
+			(at 252.73 306.0002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -31461,6 +31529,84 @@
 			(project "epdiy-v7-raw"
 				(path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.255 304.165 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53c39bc1-5abb-4522-bda4-1ac170c01a68")
+		(property "Reference" "R16"
+			(at 260.985 306.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 260.985 301.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 262.255 302.387 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.255 304.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.255 304.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 262.255 304.165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c242fec6-8b78-4393-8c49-73daee7ea327")
+		)
+		(pin "2"
+			(uuid "532bc816-75f0-46bb-8bf4-94e8e03b9edb")
+		)
+		(instances
+			(project "epdiy-v7-raw"
+				(path "/d463a158-2b18-43e0-b0c5-d5462331aab1"
+					(reference "R16")
 					(unit 1)
 				)
 			)
