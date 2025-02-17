@@ -31040,7 +31040,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at -0.01 1.24 0)
+			(at 3.26 0.08 0)
 			(layer "F.SilkS")
 			(uuid "960e9d92-75e4-4496-9a14-a7b6623e7e80")
 			(effects
@@ -35571,7 +35571,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "7bc38d50-ffe0-44ec-bf76-7fc0d9b45400")
 			(effects
@@ -35739,7 +35739,7 @@
 			(uuid "d206572c-a63c-4239-8f0f-5f63b0463e0a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "51970997-13f5-4330-9d12-51b746f4b650")
 			(effects
@@ -43428,18 +43428,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IO1"
-		(at 81.5775 53.55 90)
-		(layer "F.SilkS")
-		(uuid "069f289a-ce04-48ac-9b19-b3f768c1298b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
-		)
-	)
 	(gr_text "ED052TC4"
 		(at 154.375 72.325 90)
 		(layer "F.SilkS" knockout)
@@ -43453,7 +43441,7 @@
 		)
 	)
 	(gr_text "SDA (39)"
-		(at 169.1 111.577381 90)
+		(at 171.64 111.577381 90)
 		(layer "F.SilkS")
 		(uuid "0a0889e6-b25b-45ff-958a-2732ffa73ef8")
 		(effects
@@ -43499,18 +43487,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "IO46"
-		(at 89.235 53.55 90)
-		(layer "F.SilkS")
-		(uuid "1f182b2d-60b6-447b-946f-9314dec2eea0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
 		)
 	)
 	(gr_text "EVI"
@@ -43597,20 +43573,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 104.55 53.55 90)
-		(layer "F.SilkS")
-		(uuid "53678b7e-e8de-455e-a37a-659ba0717b7c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
-		)
-	)
 	(gr_text "SCL (40)"
-		(at 171.625 111.625 90)
+		(at 169.04 111.625 90)
 		(layer "F.SilkS")
 		(uuid "572ea460-6fe7-4981-8850-0a25c762c173")
 		(effects
@@ -43619,6 +43583,18 @@
 				(thickness 0.2)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "BOOT/IO0"
+		(at 174.88 111.69 0)
+		(layer "F.SilkS" knockout)
+		(uuid "586eb656-a804-4b6f-8ed6-4c9c30ed86ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.14)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "OSPI"
@@ -43682,18 +43658,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IO3"
-		(at 86.6825 53.55 90)
-		(layer "F.SilkS")
-		(uuid "8f0c07b1-cc74-4eb2-bc7e-dc3d9b7bee12")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
-		)
-	)
 	(gr_text "MODE"
 		(at 178.19 79.95 0)
 		(layer "F.SilkS")
@@ -43715,18 +43679,6 @@
 				(size 1.7 1.7)
 				(thickness 0.34)
 				(bold yes)
-			)
-			(justify right)
-		)
-	)
-	(gr_text "3.3V"
-		(at 101.9975 53.55 90)
-		(layer "F.SilkS")
-		(uuid "94aff5e5-023c-4c9b-a33e-050542e3fe13")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
 			)
 			(justify right)
 		)
@@ -43792,30 +43744,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IO0"
-		(at 91.7875 53.55 90)
-		(layer "F.SilkS")
-		(uuid "af6467b8-2660-4b72-8635-a3521e1ebb46")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
-		)
-	)
-	(gr_text "IO2"
-		(at 84.13 53.55 90)
-		(layer "F.SilkS")
-		(uuid "b1bb5809-3320-4e8e-93a9-ae61bc7551b1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify right)
-		)
-	)
 	(gr_text "GND"
 		(at 164.05 115.339287 90)
 		(layer "F.SilkS")
@@ -43836,18 +43764,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.15)
-			)
-			(justify right)
-		)
-	)
-	(gr_text "3.3V"
-		(at 79.025 53.55 90)
-		(layer "F.SilkS")
-		(uuid "c52ab944-d7dd-4f27-a7ef-5e6be4d97d4b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
 			)
 			(justify right)
 		)
