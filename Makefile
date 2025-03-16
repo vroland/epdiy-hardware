@@ -1,6 +1,6 @@
 .PHONY: web
 
-BOARDS = epdiy-v7 epdiy-v6 epdiy-v5 adapters/33_pin_to_ED133UT2 adapters/33pin_extension adapters/9.7_40_to_34_6inch helpers/40_pins_PCB_tester epdiy-v7-raw
+BOARDS = epdiy-v7 epdiy-v6 epdiy-v5 adapters/33_pin_to_ED133UT2 adapters/33pin_extension adapters/9.7_40_to_34_6inch helpers/40_pins_PCB_tester adapters/40_to_EPSON40 adapters/40_to_WP27D-P050VA3 epdiy-v7-raw
 
 web: build/web/index.html
 
