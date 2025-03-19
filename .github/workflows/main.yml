@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: install kicad
         run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
           sudo apt-get update
           sudo apt-get install kicad
           sudo apt-get install libjpeg-dev zlib1g-dev
