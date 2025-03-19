@@ -4,22 +4,24 @@ on:
 
 jobs:
   build-artifacts:
-    runs-on: ubuntu-24.04 
+    runs-on: ubuntu-latest
+    container:
+      image: yaqwsx/kikit:latest
 
     steps:
       - name: install kicad
         run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt-get update
-          sudo apt-get install kicad
-          sudo apt-get install libjpeg-dev zlib1g-dev
+          #sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+          apt-get update
+          #sudo apt-get install kicad
+          #sudo apt-get install libjpeg-dev zlib1g-dev
       - run: kicad-cli version
       - name: install kikit
         run: |
-          pip3 install kikit
-          #pip3 install mistune==2.0.5 
-          pip3 install PcbDraw
-          sudo apt install make cmark xsltproc librsvg2-bin
+          #pip3 install kikit
+          pip3 install mistune==2.0.5 
+          #pip3 install PcbDraw
+          apt-get install --yes make cmark xsltproc librsvg2-bin
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: build present page
@@ -49,7 +51,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
