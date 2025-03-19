@@ -1,31 +1,34 @@
-name: CI
+name: Build Artifacts
 on:
   push:
-    branches: [ main ]
+
 jobs:
   build-artifacts:
     runs-on: ubuntu-latest
+    container:
+      image: yaqwsx/kikit:latest
 
     steps:
       - name: install kicad
         run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
-          sudo apt update
-          sudo apt install kicad
+          #sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+          apt-get update
+          #sudo apt-get install kicad
+          #sudo apt-get install libjpeg-dev zlib1g-dev
       - run: kicad-cli version
       - name: install kikit
         run: |
-          pip install kikit
-          pip install mistune==2.0.5 
-          pip install PcbDraw
-          sudo apt install make cmark xsltproc librsvg2-bin
+          #pip3 install kikit
+          pip3 install mistune==2.0.5 
+          #pip3 install PcbDraw
+          apt-get install --yes make cmark xsltproc librsvg2-bin
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: build present page
         run: make web
       - run: tree build/
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: build/web/
 
@@ -33,6 +36,9 @@ jobs:
   deploy:
     # Add a dependency to the build job
     needs: build-artifacts
+
+    # Deploy only on main
+    if: github.ref == 'refs/heads/main' 
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
@@ -49,5 +55,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2 
+        uses: actions/deploy-pages@v4
 
