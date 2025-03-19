@@ -1,7 +1,8 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    #    branches: [ main ]
+
 jobs:
   build-artifacts:
     runs-on: ubuntu-latest
@@ -25,7 +26,7 @@ jobs:
         run: make web
       - run: tree build/
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: build/web/
 
@@ -49,5 +50,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2 
+        uses: actions/deploy-pages@v4
 
