@@ -1,18 +1,17 @@
-name: CI
+name: Build Artifacts
 on:
   push:
-    #    branches: [ main ]
 
 jobs:
   build-artifacts:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 
 
     steps:
       - name: install kicad
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt update
-          sudo apt install kicad
+          sudo apt-get update
+          sudo apt-get install kicad
       - run: kicad-cli version
       - name: install kikit
         run: |
@@ -35,6 +34,9 @@ jobs:
     # Add a dependency to the build job
     needs: build-artifacts
 
+    # Deploy only on main
+    if: github.ref == 'refs/heads/main' 
+
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
       pages: write      # to deploy to Pages
@@ -46,7 +48,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
