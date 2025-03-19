@@ -9,16 +9,16 @@ jobs:
     steps:
       - name: install kicad
         run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
           sudo apt-get update
           sudo apt-get install kicad
           sudo apt-get install libjpeg-dev zlib1g-dev
       - run: kicad-cli version
       - name: install kikit
         run: |
-          pip install kikit
-          pip install mistune==2.0.5 
-          pip install PcbDraw
+          pip3 install kikit
+          #pip3 install mistune==2.0.5 
+          pip3 install PcbDraw
           sudo apt install make cmark xsltproc librsvg2-bin
       - name: Checkout repo
         uses: actions/checkout@v4
