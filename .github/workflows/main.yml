@@ -6,26 +6,35 @@ jobs:
   build-artifacts:
     runs-on: ubuntu-latest
     container:
-      image: yaqwsx/kikit:latest
+      image: kicad/kicad:8.0
 
     steps:
-      - name: install kicad
-        run: |
-          #sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          apt-get update
-          #sudo apt-get install kicad
-          #sudo apt-get install libjpeg-dev zlib1g-dev
+      #- name: install kicad
+      #  run: |
+      #    apt-get update
+      #    apt-get install --yes software-properties-common
+      #    add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+      #    apt-get update
+      #    apt-get install --install-recommends kicad
+      #    apt-get install libjpeg-dev zlib1g-dev
       - run: kicad-cli version
       - name: install kikit
         run: |
-          #pip3 install kikit
-          pip3 install mistune==2.0.5 
-          #pip3 install PcbDraw
-          apt-get install --yes make cmark xsltproc librsvg2-bin
+          sudo apt update
+          sudo apt install python3-pip tree --yes
+          sudo apt-get install --yes make cmark xsltproc librsvg2-bin
+          pip install --break-system-packages --user kikit==1.5.1
+          pip install --break-system-packages --user mistune==2.0.5 
+          # FIXME: once this fix is merged, use plain pcbdraw
+          pip install --break-system-packages --user git+https://github.com/vroland/PcbDraw@master
+          export PATH="$HOME/.local/bin/:$PATH"
+          kikit --version
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: build present page
-        run: make web
+        run: |
+          export PATH="$HOME/.local/bin/:$PATH"
+          make web
       - run: tree build/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
