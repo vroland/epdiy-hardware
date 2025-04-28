@@ -26,6 +26,7 @@ build/web/index.html: build/page.md present/template/index.html $(addprefix buil
 	kikit present boardpage \
 		-d $< \
 		--name "EPDiy" \
+		--renderer "kicad-cli" \
 		$(shell for board in ${BOARDS}; do echo -n "-b" $$board "\"\$$(cmark $$board/README.md)\"" "$$board/$$(basename $$board).kicad_pcb " ; done)  \
 		--repository 'https://github.com/vroland/epdiy-hardware' \
 		--template present/template/ \
