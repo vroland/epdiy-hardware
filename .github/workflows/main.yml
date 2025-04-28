@@ -5,29 +5,20 @@ on:
 jobs:
   build-artifacts:
     runs-on: ubuntu-latest
-    container:
-      image: kicad/kicad:8.0
 
     steps:
-      #- name: install kicad
-      #  run: |
-      #    apt-get update
-      #    apt-get install --yes software-properties-common
-      #    add-apt-repository --yes ppa:kicad/kicad-9.0-releases
-      #    apt-get update
-      #    apt-get install --install-recommends kicad
-      #    apt-get install libjpeg-dev zlib1g-dev
+      - name: install kicad
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes software-properties-common
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install --install-recommends kicad
+          sudo apt-get install --yes make cmark xsltproc librsvg2-bin python3-pip tree imagemagick
       - run: kicad-cli version
       - name: install kikit
         run: |
-          sudo apt update
-          sudo apt install python3-pip tree --yes
-          sudo apt-get install --yes make cmark xsltproc librsvg2-bin
-          pip install --break-system-packages --user kikit==1.5.1
-          pip install --break-system-packages --user mistune==2.0.5 
-          # FIXME: once this fix is merged, use plain pcbdraw
-          pip install --break-system-packages --user git+https://github.com/vroland/PcbDraw@master
-          export PATH="$HOME/.local/bin/:$PATH"
+          sudo pip install --break-system-packages git+https://github.com/vroland/KiKit@master
           kikit --version
       - name: Checkout repo
         uses: actions/checkout@v4
