@@ -1,4 +1,6 @@
 \#*
+.DS_Store
+_autosave*
 *.kicad_pcb-bak
 *.kicad_pro-bak
 *.kicad_sch-bak
