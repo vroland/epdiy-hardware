@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "epd_breakout")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/epd_breakout.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-wrover")(type "Legacy")(uri "/home/martin/Documents/kicad/epdiy-hardware-versions/epdiy-v7/esp32-wrover-kicad/esp32-wrover.lib")(options "")(descr ""))
+  (lib (name "epaper-breakout-rescue")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/epaper-breakout-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "tp4056")(type "Legacy")(uri "/home/martin/Documents/kicad/epdiy-hardware-versions/epdiy-v7/tp4056/lib/tp4056.lib")(options "")(descr ""))
+  (lib (name "TPS651851RSLR")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/TPS651851RSLR.kicad_sym")(options "")(descr ""))
+  (lib (name "epdiy")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/epdiy.kicad_sym")(options "")(descr ""))
+  (lib (name "RTC")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/RV-3032-C7.kicad_sym")(options "")(descr ""))
+  (lib (name "QWIIC")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/QWIIC_SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/parts/Symbols/easyeda2kicad.kicad_sym")(options "")(descr ""))
+)
