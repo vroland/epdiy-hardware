@@ -143,8 +143,8 @@
         "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.05,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.0,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.3,
         0.5,
@@ -493,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -630,7 +631,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "plots",
+    "plot_directory": "schematics",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
